@@ -4,7 +4,7 @@
     <div class="left-pane">
       <div class="static-overlay">
         <div class="overlay-title">Mariel & Bram</div>
-        <div class="overlay-text"> We can't wait to share our special day with you</div>
+        <div class="overlay-text"> We can't wait to share our special day with you.</div>
 
         <transition name="fade-content" mode="out-in">
           <div :key="activeCaption">
@@ -19,11 +19,8 @@
     </div>
 
     <div class="right-pane">
-      <div class="right-pane">
-        <RingSection image="/img/ring.webp" @is-visible="updateImage" />
-        <AboutUsSection image="/img/runInSnow.webp" @is-visible="updateImage" />
-
-      </div>
+      <RingSection image="/img/ring.webp" @is-visible="updateImage" />
+      <AboutUsSection image="/img/runInSnow.webp" @is-visible="updateImage" />
     </div>
   </div>
 </template>
@@ -47,13 +44,24 @@ const updateImage = (newImageUrl) => {
 </script>
 
 <style>
-/* CRITICAL: Remove all default spacing */
-html,
-body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Scope+One&display=swap');
+
+
+
+.quicksand-400 {
+  font-family: "Quicksand";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
+
+.quicksand-300 {
+  font-family: "Quicksand";
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
 
 .main-layout {
   display: flex;
@@ -114,17 +122,22 @@ body {
 }
 
 .overlay-title {
-  font-weight: 900;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Scope One", serif;
+  font-weight: 400;
+  font-style: normal;
   letter-spacing: 1px;
-  font-size: 2rem;
+  font-size: 56px;
   color: white;
 }
 
 .overlay-text {
-  font-style: italic;
   color: white;
   margin: 0;
+  font-size: 17px;
+    font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* On Mobile: Stack them and hide the sticky pane */

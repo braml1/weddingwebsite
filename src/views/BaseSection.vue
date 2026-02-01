@@ -3,7 +3,7 @@
     <div class="content-wrapper">
       <img :src="image" class="mobile-only-image" alt="Section visual" />
       
-      <div class="slotted-content">
+      <div>
         <slot></slot>
       </div>
     </div>
@@ -47,7 +47,5 @@ const { target } = useSectionObserver(props, emit);
   }
 }
 
-.slotted-content {
-  text-align: left;
-}
+
 </style>
