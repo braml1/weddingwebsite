@@ -21,6 +21,7 @@
     <div class="right-pane">
       <RingSection image="/img/ring.webp" @is-visible="updateImage" />
       <AboutUsSection image="/img/runInSnow.webp" @is-visible="updateImage" />
+      <TravelSection image="/img/walkInForests.webp" @is-visible="updateImage" />
     </div>
   </div>
 </template>
@@ -29,6 +30,7 @@
 import { ref } from 'vue';
 import RingSection from './RingSection.vue';
 import AboutUsSection from './AboutUsSection.vue';
+import TravelSection from './TravelSection.vue';
 
 // Use absolute paths pointing to the 'public' folder
 const sections = [
@@ -91,7 +93,7 @@ const updateImage = (newImageUrl) => {
   background-image: linear-gradient(
     to bottom, 
     rgba(0, 0, 0, 0) 0%, 
-    rgba(0, 0, 0, 0.2) 100%
+    rgba(0, 0, 0, 0.5) 100%
   );
   /* Ensures it stays above the image but below the text box */
   z-index: 5; 
