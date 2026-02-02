@@ -14,7 +14,7 @@
       </div>
 
       <transition name="vanish" mode="out-in">
-        <img :key="activeImage" :src="activeImage" class="sticky-img" />
+        <img :key="activeImage" :src="activeImage" :class="['sticky-img', extraClass]" />
       </transition>
     </div>
 
@@ -22,15 +22,17 @@
       <RingSection image="/img/ring.webp" @is-visible="updateImage" />
       <AboutUsSection image="/img/runInSnow.webp" @is-visible="updateImage" />
       <TravelSection image="/img/walkInForests.webp" @is-visible="updateImage" />
+      <ScheduleSection image="/img/kiss.webp" @is-visible="updateImage" />
     </div>
   </div>
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, computed } from 'vue';
 import RingSection from './RingSection.vue';
 import AboutUsSection from './AboutUsSection.vue';
 import TravelSection from './TravelSection.vue';
+import ScheduleSection from './ScheduleSection.vue';
 
 // Use absolute paths pointing to the 'public' folder
 const sections = [
@@ -43,6 +45,17 @@ const activeImage = ref(sections[0].image);
 const updateImage = (newImageUrl) => {
   activeImage.value = newImageUrl;
 };
+
+const imageClassMap = {
+  '/img/ring.webp': 'start-from-top',
+  '/img/runInSnow.webp': 'start-from-bottom',
+  '/img/walkInForests.webp': 'start-from-top', // no extra class
+  '/img/kiss.webp': 'start-from-top'
+};
+
+const extraClass = computed(() => imageClassMap[activeImage.value] || '');
+
+
 </script>
 
 <style>
@@ -64,6 +77,13 @@ const updateImage = (newImageUrl) => {
   font-style: normal;
 }
 
+.start-from-top {
+  object-position: center top;
+}
+
+.start-from-bottom {
+  object-position: center bottom;
+}
 
 .main-layout {
   display: flex;
@@ -105,7 +125,6 @@ const updateImage = (newImageUrl) => {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center bottom;
 }
 
 .right-pane {
