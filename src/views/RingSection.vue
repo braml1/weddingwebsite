@@ -12,7 +12,7 @@
       </div>
 
       <div class="quicksand-400 countdown mt-3">
-        384 DAYS 6 HRS 7 MINS
+        {{ timeRemaining }}
       </div>
 
       <button class="btn btn-outline-dark round-button mt-5 px-4 py-2"> RSVP</button>
@@ -23,9 +23,43 @@
 </template>
 
 <script setup>
+import { computed, onMounted, onUnmounted, ref } from 'vue';
 import BaseSection from './BaseSection.vue';
+
 defineProps(['image']);
 defineEmits(['is-visible']);
+
+// Target date (local time)
+const targetDate = new Date("2027-02-20T00:00:00");
+
+const now = ref(new Date());
+let timer = null;
+
+
+const timeRemaining = computed(() => {
+  const diff = targetDate - now.value;
+
+  if (diff <= 0) return "0 days 0 hrs 0 mins";
+
+  const totalMinutes = Math.floor(diff / (1000 * 60));
+  const days = Math.floor(totalMinutes / (60 * 24));
+  const hours = Math.floor((totalMinutes % (60 * 24)) / 60);
+  const minutes = totalMinutes % 60;
+
+  return `${days} DAYS ${hours} HRS ${minutes} MINS`;
+});
+
+onMounted(() => {
+  timer = setInterval(() => {
+    now.value = new Date();
+  }, 10*1000); // update every 10 seconds
+});
+
+onUnmounted(() => {
+  clearInterval(timer);
+});
+
+
 </script>
 
 <style scoped>
