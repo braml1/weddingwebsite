@@ -36,7 +36,7 @@ const { target } = useSectionObserver(props, emit);
 .mobile-only-image {
   width: 100%;
   height: auto;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   display: block; /* Visible by default (mobile) */
 }
 

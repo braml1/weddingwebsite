@@ -22,7 +22,10 @@
       <RingSection image="/img/ring.webp" @is-visible="updateImage" />
       <AboutUsSection image="/img/runInSnow.webp" @is-visible="updateImage" />
       <TravelSection image="/img/walkInForests.webp" @is-visible="updateImage" />
+      <WhereToStaySection image="/img/runInSnowLeft.webp" @is-visible="updateImage" />
       <ScheduleSection image="/img/kiss.webp" @is-visible="updateImage" />
+      <QandASection image="/img/walkOnIce.webp" @is-visible="updateImage" />
+
     </div>
   </div>
 </template>
@@ -33,6 +36,8 @@ import RingSection from './RingSection.vue';
 import AboutUsSection from './AboutUsSection.vue';
 import TravelSection from './TravelSection.vue';
 import ScheduleSection from './ScheduleSection.vue';
+import WhereToStaySection from './WhereToStaySection.vue';
+import QandASection from './QandASection.vue';
 
 // Use absolute paths pointing to the 'public' folder
 const sections = [
@@ -113,7 +118,7 @@ const extraClass = computed(() => imageClassMap[activeImage.value] || '');
   background-image: linear-gradient(
     to bottom, 
     rgba(0, 0, 0, 0) 0%, 
-    rgba(0, 0, 0, 0.5) 100%
+    rgba(0, 0, 0, 0.2) 100%
   );
   /* Ensures it stays above the image but below the text box */
   z-index: 5; 
@@ -149,16 +154,21 @@ const extraClass = computed(() => imageClassMap[activeImage.value] || '');
   letter-spacing: 1px;
   font-size: 56px;
   color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+
 }
 
 .overlay-text {
   color: white;
   margin: 0;
   font-size: 17px;
-    font-family: "Quicksand", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+
+
 }
 
 /* On Mobile: Stack them and hide the sticky pane */
