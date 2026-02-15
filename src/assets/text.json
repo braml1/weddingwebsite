@@ -1,0 +1,23 @@
+{
+  "en": {
+    "welcome": {
+      "day": "Saturday",
+      "date": "February 20, 2027"
+    }
+
+  },
+  "es": {
+    "welcome": {
+      "day": "Sábado",
+      "date": "Febrero 20, 2027"
+    }
+
+  },
+  "nl": {
+    "welcome": {
+      "day": "Zaterdag",
+      "date": "20 Februari 2027"
+    }
+
+  }
+}

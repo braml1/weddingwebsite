@@ -19,7 +19,7 @@
     </div>
 
     <div class="right-pane">
-      <RingSection image="/img/ring.webp" @is-visible="updateImage" />
+      <WelcomeSection image="/img/ring.webp" @is-visible="updateImage" language="en" />
       <AboutUsSection image="/img/runInSnow.webp" @is-visible="updateImage" />
       <TravelSection image="/img/walkInForests.webp" @is-visible="updateImage" />
       <WhereToStaySection image="/img/runInSnowLeft.webp" @is-visible="updateImage" />
@@ -32,7 +32,7 @@
 
 <script setup>
 import { ref, computed } from 'vue';
-import RingSection from './RingSection.vue';
+import WelcomeSection from './WelcomeSection.vue';
 import AboutUsSection from './AboutUsSection.vue';
 import TravelSection from './TravelSection.vue';
 import ScheduleSection from './ScheduleSection.vue';

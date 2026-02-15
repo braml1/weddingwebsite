@@ -1,9 +1,15 @@
 <template>
   <BaseSection :image="image" @is-visible="$emit('is-visible', $event)">
     <div class="ring-background  d-flex flex-column justify-content-center align-items-center text-center">
+        <button v-if="dataStore.language != 'es'" class="btn btn-primary my-2" @click="dataStore.setLanguage('es')">ES</button>
+        <button v-if="dataStore.language != 'en'" class="btn btn-primary my-2" @click="dataStore.setLanguage('en')">EN</button>
+        <button v-if="dataStore.language != 'nl'" class="btn btn-primary my-2" @click="dataStore.setLanguage('nl')">NL</button>
+
       <div class="instrument-sans-400">
-        Saturday <br />
-        February 20, 2027
+
+         {{ dataStore.t('welcome.day') }} 
+        <br />
+        {{ dataStore.t('welcome.date') }} 
       </div>
 
       <div class="quicksand-400 location mt-3">
@@ -26,7 +32,10 @@
 import { computed, onMounted, onUnmounted, ref } from 'vue';
 import BaseSection from './BaseSection.vue';
 
-defineProps(['image']);
+import { useDataStore } from '@/stores/DataStore'
+const dataStore = useDataStore()
+
+const props = defineProps(['image']);
 defineEmits(['is-visible']);
 
 // Target date (local time)
@@ -34,6 +43,8 @@ const targetDate = new Date("2027-02-20T00:00:00");
 
 const now = ref(new Date());
 let timer = null;
+
+
 
 
 const timeRemaining = computed(() => {
