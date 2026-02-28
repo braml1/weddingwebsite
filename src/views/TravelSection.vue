@@ -25,7 +25,7 @@
         </p>
         <h5>Getting In</h5>
       </div>
-      <div class="aboutus-text text-start mt-3 mx-5">
+      <div class="aboutus-text text-center mt-3 mx-4">
 
         <p>
           For our guests traveling internationally, we highly recommend flying into Mexico City International Airport
@@ -50,7 +50,7 @@
         </p>
         <h5>Arrival to Cholula, Puebla</h5>
       </div>
-      <div class="aboutus-text text-start mt-3 mx-5">
+      <div class="aboutus-text text-start mt-3 mx-4">
 
         <p>
           From Mexico City Airport, there are lots of ways to get to Cholula!
@@ -146,9 +146,8 @@ const navigateToWebsite = (url) => {
   font-size: 16px;
   line-height: 25px;
   color: rgb(51, 51, 51);
-  padding-left: 64px;
-  padding-right: 64px;
+  padding: 0 5vw;   
   text-rendering: optimizeLegibility;
-  letter-spacing: 1px;
+  letter-spacing: 0.03em;
 }
 </style>

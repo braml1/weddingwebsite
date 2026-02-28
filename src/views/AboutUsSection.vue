@@ -5,7 +5,7 @@
         About Us
       </div>
 
-      <div class="aboutus-text text-start mt-5 mx-5">
+      <div class="aboutus-text text-center mt-5 mx-4">
 
         <p>
           Our story began far from where either of us grew up. Bram is from Belgium, Mariel is from Mexico, and somehow
@@ -49,7 +49,8 @@ defineEmits(['is-visible']);
   font-size: 17px;
   line-height: 25px;
   color: rgb(51, 51, 51);
-  padding-left: 64px;
-  padding-right: 64px;
+  padding: 0 5vw;   
+  text-rendering: optimizeLegibility;
+  letter-spacing: 0.03em;
 }
 </style>

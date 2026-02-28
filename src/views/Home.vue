@@ -6,11 +6,11 @@
         <div class="overlay-title">Mariel & Bram</div>
         <div class="overlay-text"> We can't wait to share our special day with you.</div>
 
-        <transition name="fade-content" mode="out-in">
+        <!-- <transition name="fade-content" mode="out-in">
           <div :key="activeCaption">
             <p class="overlay-text">{{ activeCaption }}</p>
           </div>
-        </transition>
+        </transition> -->
       </div>
 
       <transition name="vanish" mode="out-in">
