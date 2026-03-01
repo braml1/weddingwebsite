@@ -29,7 +29,7 @@
         {{ timeRemaining.toUpperCase() }}
       </div>
 
-      <button class="btn btn-outline-dark round-button mt-5 px-4 py-2 rsvp-button"> RSVP</button>
+      <button class="btn btn-outline-dark round-button mt-5 px-4 py-2 rsvp-button" @click="submitForm()"> RSVP</button>
 
 
     </div>
@@ -62,6 +62,35 @@ const goToPage = (lang) => {
     params: { ...route.params, lang }
   })
 }
+
+const submitForm = async() => {
+  const googleWebAppUrl = "https://script.google.com/macros/s/AKfycbzOyrjBfbrxMNbF_k7rmDsYfIxKQl6i7y-goeJmFR1gF_JrEU_taIwF6rTSUGiRp08m/exec"
+
+  const name = "bram"
+  const email = "ble@bla.com"
+  const coming = "Y"
+  const nAdults = 1
+  const nKids = 10
+  const allergies = "allergic to annoying children"
+
+
+  const response = await fetch(googleWebAppUrl, {
+    method: "POST",
+    body: JSON.stringify({
+      name: name,
+      email: email,
+      coming: coming,
+      n_adults: nAdults,
+      n_kids: nKids,
+      allergies: allergies
+    }),
+  });
+
+  const result = await response.json();
+  console.log(result);
+}
+
+
 
 const labels = {
   en: {
