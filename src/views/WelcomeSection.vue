@@ -1,6 +1,6 @@
 <template>
   <BaseSection :image="image" @is-visible="$emit('is-visible', $event)">
-<div class="lang-container">
+    <div class="lang-container">
       <button 
         v-for="lang in ['es', 'en', 'nl']" 
         :key="lang"
@@ -29,11 +29,15 @@
         {{ timeRemaining.toUpperCase() }}
       </div>
 
-      <button class="btn btn-outline-dark round-button mt-5 px-4 py-2 rsvp-button" @click="submitForm()"> RSVP</button>
+      <button class="btn btn-outline-dark round-button mt-5 px-4 py-2 rsvp-button" @click="openModal()"> RSVP</button>
 
 
     </div>
   </BaseSection>
+
+  <RsvpModal ref="rsvpModal" />
+
+  
 </template>
 
 <script setup>
@@ -45,6 +49,9 @@ const router = useRouter()
 const route = useRoute()
 
 import { useDataStore } from '@/stores/DataStore'
+import RsvpModal from '@/components/RsvpModal.vue';
+
+
 const dataStore = useDataStore()
 
 const props = defineProps(['image']);
@@ -62,33 +69,35 @@ const goToPage = (lang) => {
     params: { ...route.params, lang }
   })
 }
+const rsvpModal = ref(null);
+const openModal = () => {rsvpModal.value?.open()}
 
-const submitForm = async() => {
-  const googleWebAppUrl = "https://script.google.com/macros/s/AKfycbzOyrjBfbrxMNbF_k7rmDsYfIxKQl6i7y-goeJmFR1gF_JrEU_taIwF6rTSUGiRp08m/exec"
+// const submitForm = async() => {
+//   const googleWebAppUrl = "https://script.google.com/macros/s/AKfycbzOyrjBfbrxMNbF_k7rmDsYfIxKQl6i7y-goeJmFR1gF_JrEU_taIwF6rTSUGiRp08m/exec"
 
-  const name = "bram"
-  const email = "ble@bla.com"
-  const coming = "Y"
-  const nAdults = 1
-  const nKids = 10
-  const allergies = "allergic to annoying children"
+//   const name = "bram"
+//   const email = "ble@bla.com"
+//   const coming = "Y"
+//   const nAdults = 1
+//   const nKids = 10
+//   const allergies = "allergic to annoying children"
 
 
-  const response = await fetch(googleWebAppUrl, {
-    method: "POST",
-    body: JSON.stringify({
-      name: name,
-      email: email,
-      coming: coming,
-      n_adults: nAdults,
-      n_kids: nKids,
-      allergies: allergies
-    }),
-  });
+//   const response = await fetch(googleWebAppUrl, {
+//     method: "POST",
+//     body: JSON.stringify({
+//       name: name,
+//       email: email,
+//       coming: coming,
+//       n_adults: nAdults,
+//       n_kids: nKids,
+//       allergies: allergies
+//     }),
+//   });
 
-  const result = await response.json();
-  console.log(result);
-}
+//   const result = await response.json();
+//   console.log(result);
+// }
 
 
 
