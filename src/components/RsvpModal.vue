@@ -13,81 +13,93 @@
         </div>
 
         <div class="modal-body rsvp-modal-body">
-          <div class="rsvp-field">
-            <label class="rsvp-label">NAME</label>
-            <input
-              v-model="form.name"
-              type="text"
-              class="rsvp-input"
-              placeholder="Your full name"
-            />
+          <div v-if="state.submittingStage  == 2" class="rsvp-thankyou">
+              Thank you for your response!
           </div>
 
-          <div class="rsvp-field mt-4">
-            <label class="rsvp-label">EMAIL</label>
-            <input
-              v-model="form.email"
-              type="email"
-              class="rsvp-input"
-              placeholder="your@email.com"
-            />
-          </div>
-
-          <div class="rsvp-field mt-4">
-            <label class="rsvp-label">ATTENDING</label>
-            <div class="rsvp-radio-group">
-              <label class="rsvp-radio-label">
-                <input type="radio" v-model="form.coming" value="yes" class="rsvp-radio" />
-                Joining the celebration
-              </label>
-              <label class="rsvp-radio-label">
-                <input type="radio" v-model="form.coming" value="no" class="rsvp-radio" />
-                Unable to attend
-              </label>
+          <div v-if="state.submittingStage < 2">
+            <div class="rsvp-field">
+              <label class="rsvp-label">NAME</label>
+              <input
+                v-model="form.name"
+                type="text"
+                class="rsvp-input"
+                placeholder="Your full name"
+              />
             </div>
-          </div>
+
+            <div class="rsvp-field mt-4">
+              <label class="rsvp-label">EMAIL</label>
+              <input
+                v-model="form.email"
+                type="email"
+                class="rsvp-input"
+                placeholder="your@email.com"
+              />
+            </div>
+
+            <div class="rsvp-field mt-4">
+              <label class="rsvp-label">ATTENDING</label>
+              <div class="rsvp-radio-group">
+                <label class="rsvp-radio-label">
+                  <input type="radio" v-model="form.coming" value="yes" class="rsvp-radio" />
+                  Accepts with pleasure
+                </label>
+                <label class="rsvp-radio-label">
+                  <input type="radio" v-model="form.coming" value="no" class="rsvp-radio" />
+                  Regretfully declines
+                </label>
+              </div>
+            </div>
 
 
-          <div v-if="form.coming == 'yes'" class="rsvp-field mt-4">
-              <label class="rsvp-label">ADULTS</label>
-              <select v-model="form.nAdults" class="rsvp-input rsvp-select">
-                  <option v-for="n in 5" :key="n" :value="n">{{ n }}</option>
-              </select>
-          </div>
+            <div v-if="form.coming == 'yes'" class="rsvp-field mt-4">
+                <label class="rsvp-label">ADULTS</label>
+                <select v-model="form.nAdults" class="rsvp-input rsvp-select">
+                    <option value="0">0</option>
+                    <option v-for="n in 4" :key="n" :value="n">{{ n }}</option>
+                </select>
+            </div>
 
-          <div  v-if="form.coming == 'yes'" class="rsvp-field mt-4">
-              <label class="rsvp-label">CHILDREN <br/> UNDER 10 </label>
-              <select v-model="form.nKids" class="rsvp-input rsvp-select">
-                  <option value="0">0</option>
-                  <option v-for="n in 4" :key="n" :value="n">{{ n }}</option>
-              </select>
-          </div>
+            <div  v-if="form.coming == 'yes'" class="rsvp-field mt-4">
+                <label class="rsvp-label">CHILDREN <br/> UNDER 10 </label>
+                <select v-model="form.nKids" class="rsvp-input rsvp-select">
+                    <option value="0">0</option>
+                    <option v-for="n in 4" :key="n" :value="n">{{ n }}</option>
+                </select>
+            </div>
 
-          <div v-if="form.coming == 'yes'" class="rsvp-field mt-4">
-            <label class="rsvp-label">ALLERGIES <br/>/ COMMENTS</label>
-            <textarea
-              v-model="form.comment"
-              class="rsvp-input rsvp-textarea"
-              placeholder="Any dietary requirements or notes..."
-              rows="3"
-            />
-          </div>
+            <div v-if="form.coming == 'yes'" class="rsvp-field mt-4">
+              <label class="rsvp-label">ALLERGIES</label>
+              <textarea
+                v-model="form.comment"
+                class="rsvp-input rsvp-textarea"
+                placeholder="Any dietary requirements or notes..."
+                rows="3"
+              />
+            </div>
 
 
-          <div v-if="form.coming == 'no'" class="rsvp-field mt-4">
-            <label class="rsvp-label">MESSAGE</label>
-            <textarea
-              v-model="form.comment"
-              class="rsvp-input rsvp-textarea"
-              placeholder="Feel free to leave a message..."
-              rows="3"
-            />
+            <div v-if="form.coming == 'no'" class="rsvp-field mt-4">
+              <label class="rsvp-label">MESSAGE</label>
+              <textarea
+                v-model="form.comment"
+                class="rsvp-input rsvp-textarea"
+                placeholder="Feel free to leave a message..."
+                rows="3"
+              />
+            </div>
+
           </div>
 
         </div>
 
         <div class="modal-footer rsvp-modal-footer">
-          <button class="rsvp-submit-btn" @click="submit">CONFIRM</button>
+          <button v-if="state.submittingStage == 0" class="rsvp-submit-btn" @click="submitForm()">SEND</button>
+          <button v-if="state.submittingStage == 1"  class="rsvp-submit-btn" disabled> 
+            <span  class="spinner-border spinner-border-sm me-2 text" role="status"></span> SENDING...
+          </button>
+          <button v-if="state.submittingStage == 2" class="rsvp-submit-btn" @click="close()">CLOSE</button>
         </div>
       </div>
     </div>
@@ -95,15 +107,18 @@
 </template>
 
 <script setup>
-import { ref, onUnmounted } from 'vue';
+import { ref, onUnmounted, reactive } from 'vue';
 import { Modal } from 'bootstrap';
 
 const modalEl = ref(null);
 let modalInstance = null;
 
+const state = reactive({
+  submittingStage: 0 //0 = start, 1=submitting, 2=Done
+})
 
 
-const form = ref({ name: '', email: '', coming: '', nAdults: 1, nKids: 0, comment:"" });
+const form = ref({ name: '', email: '', coming: '', nAdults: 0, nKids: 0, comment: '' });
 
 const getModal = () => {
   if (!modalInstance) {
@@ -115,11 +130,35 @@ const getModal = () => {
 const open = () => getModal().show();
 const close = () => getModal().hide();
 
-const submit = () => {
-  // your submit logic here
-  console.log(form.value);
-  close();
-};
+const submitForm = async() => {
+  state.submittingStage = 1
+
+  const googleWebAppUrl = "https://script.google.com/macros/s/AKfycbzOyrjBfbrxMNbF_k7rmDsYfIxKQl6i7y-goeJmFR1gF_JrEU_taIwF6rTSUGiRp08m/exec"
+
+  const payload = {
+      name: form.value.name,
+      email: form.value.email,
+      coming: form.value.coming,
+      n_adults: form.value.nAdults,
+      n_kids: form.value.nKids,
+      allergies: form.value.comment
+    }
+
+  const response = await fetch(googleWebAppUrl, {
+    method: "POST",
+    body: JSON.stringify(payload),
+  });
+
+  const result = await response.json();
+
+  if(result.status == 'success') {
+    state.submittingStage = 2
+  }
+
+  console.log(result)
+
+
+}
 
 onUnmounted(() => modalInstance?.dispose());
 defineExpose({ open, close });
@@ -178,6 +217,17 @@ defineExpose({ open, close });
   align-items: center; /* changed */
   gap: 1rem;             /* changed */
 }
+
+.rsvp-thankyou {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  color: rgb(51, 51, 51);
+  opacity: 0.7;
+  white-space: nowrap;   /* added */
+  min-width: 100px;       /* added */
+}
+
 
 .rsvp-label {
   font-family: 'Quicksand', sans-serif;
