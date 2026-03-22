@@ -4,6 +4,8 @@
       <div class="aboutus-title text-center mt-5">
         Schedule
 
+        <Schedule />
+
       </div>
 
       
@@ -12,6 +14,7 @@
 </template>
 
 <script setup>
+import Schedule from '@/components/Schedule.vue';
 import BaseSection from './BaseSection.vue';
 defineProps(['image']);
 defineEmits(['is-visible']);

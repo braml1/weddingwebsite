@@ -215,6 +215,7 @@ onUnmounted(() => {
   background-size: cover;
   width: 100%;
   height: 500px;
+  /* height: 100vh; */
 }
 
 @media (min-width: 768px) {

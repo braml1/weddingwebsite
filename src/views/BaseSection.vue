@@ -22,7 +22,8 @@ const { target } = useSectionObserver(props, emit);
 
 <style scoped>
 .section-block {
-  /* min-height: 500px; */
+  /* min-height: 100vh; */
+  min-height: 500px;
   display: flex;
   /* align-items: center; */
   /* padding: 5rem 2rem; */
@@ -45,7 +46,14 @@ const { target } = useSectionObserver(props, emit);
   .mobile-only-image {
     display: none; /* Completely hide the right-side image on Desktop */
   }
+
+  .section-block {
+    min-height: 100vh;
+  }
+
 }
+
+
 
 
 </style>
