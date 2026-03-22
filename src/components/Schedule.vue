@@ -8,7 +8,7 @@
 
       <!-- LEFT COLUMN -->
       <div class="col d-flex flex-column">
-        <div v-for="item in leftEvents" :key="item.time" class="d-flex align-items-center gap-3 p-3 text-start">
+        <div v-for="item in leftEvents" :key="item.time" class="d-flex align-items-center gap-3 p-2 text-start">
           <div class="ws-icon flex-shrink-0 d-flex align-items-center justify-content-center" v-html="item.icon"></div>
           <div>
             <div class="ws-time fw-bold">{{ item.time }}</div>
@@ -23,7 +23,7 @@
       <!-- RIGHT COLUMN -->
       <div class="col d-flex flex-column">
         <div v-for="(item, index) in rightEvents" :key="item.time"
-          class="d-flex flex-row-reverse align-items-center gap-3 p-3 text-end" :class="index === 0 ? 'mt-4' : 'mt-2'">
+          class="d-flex flex-row-reverse align-items-center gap-3 p-2 text-end" :class="index === 0 ? 'mt-4' : 'mt-2'">
           <div class="ws-icon flex-shrink-0 d-flex align-items-center justify-content-center" v-html="item.icon"></div>
           <div>
             <div class="ws-time fw-bold">{{ item.time }}</div>
@@ -133,14 +133,14 @@ const rightEvents = [
 }
 
 .ws-icon {
-  width: 60px;
-  height: 60px;
+  width: 52px;
+  height: 52px;
   color: #111;
 }
 
 .ws-icon :deep(svg) {
-  width: 55px;
-  height: 55px;
+  width: 45px;
+  height: 45px;
 }
 
 .ws-time {
