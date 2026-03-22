@@ -158,22 +158,7 @@ onUnmounted(() => {
 
 
 
-.ring-background {
-  /* The background color you requested */
-  background-color: rgb(208, 206, 208);
 
-  /* Replace 'your-image.png' with the actual filename */
-  background-image: url('/img/bg-floral.png');
-
-  /* Standard centering and scaling */
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-
-  /* Ensure the container has height to be visible */
-  width: 100%;
-  height: 100vh;
-}
 
 .lang-container {
   position: absolute;
@@ -220,5 +205,21 @@ onUnmounted(() => {
 .rsvp-button:hover {
   background: #2c2c2c;
   color: #fff;
+}
+
+.ring-background {
+  background-color: rgb(208, 206, 208);
+  background-image: url('/img/bg-floral.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+@media (min-width: 768px) {
+.ring-background {
+  height: 100vh;
+}
 }
 </style>
