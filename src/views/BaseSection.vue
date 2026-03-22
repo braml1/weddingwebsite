@@ -22,7 +22,7 @@ const { target } = useSectionObserver(props, emit);
 
 <style scoped>
 .section-block {
-  min-height: 100vh;
+  /* min-height: 500px; */
   display: flex;
   /* align-items: center; */
   /* padding: 5rem 2rem; */
