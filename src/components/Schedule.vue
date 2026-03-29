@@ -1,5 +1,5 @@
 <template>
-  <div class="ws-wrap mx-auto px-4 bg-white">
+  <div class="ws-wrap mx-auto px-4 bg-white mb-5">
     <hr class="mx-5">
     <div class="ws-title text-center">Saturday</div>
     <hr class="mx-5 mt-3">
