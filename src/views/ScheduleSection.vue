@@ -2,7 +2,7 @@
   <BaseSection :image="image" @is-visible="$emit('is-visible', $event)">
     <div class="">
       <div class="aboutus-title text-center mt-5">
-        Schedule
+
 
         <Schedule />
 
@@ -37,8 +37,7 @@ defineEmits(['is-visible']);
   font-size: 16px;
   line-height: 25px;
   color: rgb(51, 51, 51);
-  padding-left: 64px;
-  padding-right: 64px;
+  padding: 0 5vw; 
   text-rendering: optimizeLegibility;
   letter-spacing: 1px;
 }
