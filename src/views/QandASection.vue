@@ -10,25 +10,32 @@
       </div>
 
       <div class="aboutus-text text-start mt-2 mx-4">
-        Please RSVP by January 15, so we can have an accurate headcount.
+        Please RSVP by January 15 so we can finalize arrangements.
       </div>
 
       <div class="aboutus-text text-start mt-5 mx-4 fw-bold">
-        Can I bring a date?
+        Can I bring a guest?
       </div>
 
       <div class="aboutus-text text-start mt-2 mx-4">
-        Please check your invite for your +1!
+        Please refer to your invitation for details regarding your guest.
       </div>
 
       <div class="aboutus-text text-start mt-5 mx-4 fw-bold">
-        Are kids welcome?
+        Are children welcome?
       </div>
 
       <div class="aboutus-text text-start mt-2 mx-4">
-        We are happy to welcome children at our wedding and look forward to celebrating with families. We kindly ask
-        parents to supervise their children throughout the event so everyone can fully enjoy the ceremony and
-        celebration.
+        We are delighted to welcome children and celebrate with families. We kindly ask that little ones remain supervised throughout the evening.
+      </div>
+
+      <div class="aboutus-text text-start mt-5 mx-4 fw-bold">
+        What should I wear?
+      </div>
+
+      <div class="aboutus-text text-start mt-2 mx-4">
+        The wedding day dress code is formal. The ceremony will be outdoors, followed by an indoor dinner. 
+        We recommend bringing a light layer for the evening.
       </div>
 
 
@@ -37,25 +44,23 @@
       </div>
 
       <div class="aboutus-text text-start mt-2 mx-4">
-        February in Cholula brings mild, pleasant weather — warm days with lots of sunshine and cool evenings. Daytime
-        temperatures typically reach the mid-20s °C, while nights can dip into the low teens °C. It’s usually dry and
-        comfortable.
+        February in Cholula is typically warm and sunny during the day, with cooler evenings.
       </div>
 
       <div class="aboutus-text text-start mt-5 mx-4 fw-bold">
-        Where should I park?
+        Where can I park?
       </div>
 
       <div class="aboutus-text text-start mt-2 mx-4">
-        Valet parking will be available at the Hacienda.
+        Free valet parking will be available at the hacienda.
       </div>
 
       <div class="aboutus-text text-start mt-5 mx-4 fw-bold">
-        Is the wedding indoors or outdoors?
+        Can I take photos during the ceremony?
       </div>
 
       <div class="aboutus-text text-start mt-2 mx-4">
-        Our wedding ceremony is outdoors, but the reception will be inside.
+        We invite you to be fully present during the ceremony and kindly ask that phones remain away.
       </div>
 
       <div class="aboutus-text text-start mt-5 mx-4 fw-bold">

@@ -2,11 +2,17 @@
   <BaseSection :image="image" @is-visible="$emit('is-visible', $event)">
     <div class="">
       <div class="aboutus-title text-center mt-5">
+        The Celebration Schedule
+      </div>
+      <!-- <div class="aboutus-text py-3">
+        The celebration will unfold within a historic hacienda, 
+        where time slows and every moment unfolds with intention.
+      </div> -->
 
 
         <Schedule />
 
-      </div>
+      
 
       
     </div>

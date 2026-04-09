@@ -19,12 +19,16 @@
     </div>
 
     <div class="right-pane">
-      <WelcomeSection image="/img/ring.webp" @is-visible="updateImage" language="en" />
-      <AboutUsSection image="/img/runInSnow.webp" @is-visible="updateImage" />
+      <LandingSection image="/img/ring.webp" @is-visible="updateImage" language="en" />
+
+      <WelcomeSection image="/img/runInSnowLeft.webp" @is-visible="updateImage" />
+      <ScheduleSection image="/img/kiss.webp" @is-visible="updateImage" />
+
       <TravelSection image="/img/walkInForests.webp" @is-visible="updateImage" />
       <WhereToStaySection image="/img/runInSnowLeft.webp" @is-visible="updateImage" />
-      <ScheduleSection image="/img/kiss.webp" @is-visible="updateImage" />
+
       <QandASection image="/img/walkOnIce.webp" @is-visible="updateImage" />
+            <AboutUsSection image="/img/runInSnow.webp" @is-visible="updateImage" />
 
     </div>
   </div>
@@ -32,12 +36,13 @@
 
 <script setup>
 import { ref, computed } from 'vue';
-import WelcomeSection from './WelcomeSection.vue';
+import LandingSection from './LandingSection.vue';
 import AboutUsSection from './AboutUsSection.vue';
 import TravelSection from './TravelSection.vue';
 import ScheduleSection from './ScheduleSection.vue';
 import WhereToStaySection from './WhereToStaySection.vue';
 import QandASection from './QandASection.vue';
+import WelcomeSection from './WelcomeSection.vue';
 
 // Use absolute paths pointing to the 'public' folder
 const sections = [
