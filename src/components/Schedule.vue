@@ -58,7 +58,7 @@
     </div>
 
     <hr class="mx-0 mt-5">
-    <div class="ws-title text-center py-2">Sunday - Newlywed’s Brunch </div>
+    <div class="ws-title text-center py-2">Sunday - Brunch </div>
     <hr class="mx-0 mt-3">
 
     <div class="aboutus-text text-start">
