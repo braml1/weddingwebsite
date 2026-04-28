@@ -79,6 +79,22 @@
               />
             </div>
 
+            <div v-if="form.coming == 'yes'" class="rsvp-field mt-4">
+              <label class="rsvp-label">SUNDAY <br/> BRUNCH</label>
+              <div class="rsvp-radio-group">
+                <label class="rsvp-radio-label">
+                  <input type="radio" v-model="form.coming_to_brunch" value="yes" class="rsvp-radio" />
+                  Will be happy to join the brunch 
+                </label>
+                <label class="rsvp-radio-label">
+                  <input type="radio" v-model="form.coming_to_brunch" value="no" class="rsvp-radio" />
+                  Cannot make it to the brunch 
+                </label>
+              </div>
+            </div>
+
+
+
 
             <div v-if="form.coming == 'no'" class="rsvp-field mt-4">
               <label class="rsvp-label">MESSAGE</label>
@@ -118,7 +134,7 @@ const state = reactive({
 })
 
 
-const form = ref({ name: '', email: '', coming: '', nAdults: 0, nKids: 0, comment: '' });
+const form = ref( { name: '', email: '', coming: '', nAdults: 0, nKids: 0, comment: '', coming_to_brunch: '' });
 
 const getModal = () => {
   if (!modalInstance) {
@@ -127,13 +143,23 @@ const getModal = () => {
   return modalInstance;
 };
 
-const open = () => getModal().show();
-const close = () => getModal().hide();
+const resetForm = () => {
+  form.value =  { name: '', email: '', coming: '', nAdults: 0, nKids: 0, comment: '', coming_to_brunch: '' }
+  state.submittingStage = 0
+}
+const open = () => {
+  resetForm()
+  getModal().show();
+}
+const close = () => {
+  getModal().hide()
+};
 
 const submitForm = async() => {
   state.submittingStage = 1
 
-  const googleWebAppUrl = "https://script.google.com/macros/s/AKfycbzOyrjBfbrxMNbF_k7rmDsYfIxKQl6i7y-goeJmFR1gF_JrEU_taIwF6rTSUGiRp08m/exec"
+  const googleWebAppUrl = "https://script.google.com/macros/s/AKfycbyHZxSDEdl0Z7e_6LC1KRH5aUUFC8wBUtGOP1bXoMDuiUAgmi2RxesASYrRkJL67n6Z/exec"
+  //const googleWebAppUrl = "https://script.google.com/macros/s/AKfycby7Xzr8b9wFKH5gveWvSkxNk-l83TwdJDH2U1nQc6DS_i3HhQVhiVkcW1N3caQTqV0m/exec"
 
   const payload = {
       name: form.value.name,
@@ -141,7 +167,8 @@ const submitForm = async() => {
       coming: form.value.coming,
       n_adults: form.value.nAdults,
       n_kids: form.value.nKids,
-      allergies: form.value.comment
+      allergies: form.value.comment,
+      coming_to_brunch: form.value.coming_to_brunch
     }
 
   const response = await fetch(googleWebAppUrl, {
@@ -154,8 +181,6 @@ const submitForm = async() => {
   if(result.status == 'success') {
     state.submittingStage = 2
   }
-
-  console.log(result)
 
 
 }
