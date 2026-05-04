@@ -26,9 +26,7 @@
         As our journey continues, we’ve chosen a place to celebrate that feels just as meaningful as the path that
         brought us here.
       </p>
-      <p>
-        We feel incredibly grateful to gather with you — our favorite people — as we begin this next chapter.
-      </p>
+
 
     </div>
     
@@ -42,13 +40,10 @@
 
     <div class="aboutus-text text-center mt-5 mx-4">
       <p>
-        We feel incredibly grateful to celebrate this moment with you.
+        We are so grateful to share this moment with you.
       </p>
       <p>
-        Thank you for being part of our story.
-      </p>
-      <p>
-        We can’t wait to share this unforgettable weekend together.
+        We can’t wait to celebrate together in Cholula!
       </p>
       With love,<br>
       Mariel & Bram

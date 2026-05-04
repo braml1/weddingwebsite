@@ -47,6 +47,8 @@
         February in Cholula is typically warm and sunny during the day, with cooler evenings.
       </div>
 
+
+
       <div class="aboutus-text text-start mt-5 mx-4 fw-bold">
         Where can I park?
       </div>
@@ -61,6 +63,14 @@
 
       <div class="aboutus-text text-start mt-2 mx-4">
         We invite you to be fully present during the ceremony and kindly ask that phones remain away.
+      </div>
+
+      <div class="aboutus-text text-start mt-5 mx-4 fw-bold">
+        Do you have any wishes for gifts?
+      </div>
+
+      <div class="aboutus-text text-start mt-2 mx-4">
+        Just being there with us is more than enough. Your presence is what we value most.
       </div>
 
       <div class="aboutus-text text-start mt-5 mx-4 fw-bold">

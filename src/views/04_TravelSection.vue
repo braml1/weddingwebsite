@@ -83,7 +83,7 @@
           </ul>
 
 
-          At the airport, follow signs to the Terminal de <i>Autobuses del Aeropuerto</i> (Terminal 1, near Door 7).
+          At the airport, follow signs to the Terminal de Autobuses del Aeropuerto.
           <br />
           We suggest ADO (Primera, GL, or Platino) for comfort and frequency.
 

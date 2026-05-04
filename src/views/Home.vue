@@ -19,16 +19,16 @@
     </div>
 
     <div class="right-pane">
-      <LandingSection image="/img/ring.webp" @is-visible="updateImage" language="en" />
+      <LandingSection image="/img/standingInForest.webp" @is-visible="updateImage" language="en" />
 
-      <WelcomeSection image="/img/runInSnowLeft.webp" @is-visible="updateImage" />
+      <WelcomeSection image="/img/walkWithMountain2.webp" @is-visible="updateImage" />
       <ScheduleSection image="/img/kiss.webp" @is-visible="updateImage" />
 
-      <TravelSection image="/img/walkInForests.webp" @is-visible="updateImage" />
-      <WhereToStaySection image="/img/runInSnowLeft.webp" @is-visible="updateImage" />
+      <TravelSection image="/img/lookAtSky.webp" @is-visible="updateImage" />
+      <WhereToStaySection image="/img/lookEachOther.webp" @is-visible="updateImage" />
 
-      <QandASection image="/img/walkOnIce.webp" @is-visible="updateImage" />
-            <AboutUsSection image="/img/runInSnow.webp" @is-visible="updateImage" />
+      <QandASection image="/img/runInSnowLeft.webp" @is-visible="updateImage" />
+      <AboutUsSection image="/img/ring.webp" @is-visible="updateImage" />
 
     </div>
   </div>
@@ -41,7 +41,7 @@ import WelcomeSection from './02_WelcomeSection.vue';
 import ScheduleSection from './03_ScheduleSection.vue';
 import TravelSection from './04_TravelSection.vue';
 import WhereToStaySection from './05_WhereToStaySection.vue';
-import AboutUsSection from './AboutUsSection.vue';
+import AboutUsSection from './06_AboutUsSection.vue';
 
 
 

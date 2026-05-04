@@ -27,6 +27,33 @@
 
         We suggest using Uber after the celebration, as there are many
         breathalyzer checkpoints in the area.
+      </div>
+
+      <div class="aboutus-title text-center mt-5">
+        Things to do
+      </div>
+
+      <div class="aboutus-text text-start mt-3 mx-5">
+        <p>
+        For those spending extra time in Cholula, here are a few of our favorite spots for food, drinks, and exploring.
+        </p>
+
+
+        Food & drinks:
+        <ul class="">
+          <li><a href="https://ciudadsagrada.mx/" target="_blank">Ciudad Sagrada</a> </li>
+          <li><a href="https://www.santouagastrobar.com/" target="_blank">Santóua</a></li>
+          <li><a href="https://www.instagram.com/licoreriasanpedritocholula/" target="_blank">Licoreria San Pedrito </a></li>
+          <li><a href="https://cus-cus-cus.res-menu.net/" target="_blank">Cus Cus Cus</a> </li>
+        </ul>
+
+        To explore:
+        <ul class="">
+          <li>Great Pyramid of Cholula </li>
+          <li>Santuario de Nuestra Señora de los Remedios</li>
+          <li>Zócalo de San Pedro Cholula</li>
+          <li>Iglesia de San Francisco Acatepec</li>
+        </ul>
 
 
 
