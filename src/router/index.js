@@ -28,7 +28,6 @@ const router = createRouter({
 
       dataStore.setLanguage(lang)
     } else {
-      console.log("jow")
       dataStore.setLanguage('en')
     }
 

@@ -21,7 +21,7 @@
         </p>
         <p>
 
-          We can’t wait to celebrate together.
+          We can’t wait to celebrate together!
         </p>
       </div>
 

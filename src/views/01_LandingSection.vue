@@ -21,7 +21,7 @@
       </div>
 
       <div class="quicksand-400 location mt-3">
-        Hacienda San Jose Actipan, Cholula <br />
+        Hacienda San José Actipan, Cholula <br />
         Puebla, Mexico
       </div>
 

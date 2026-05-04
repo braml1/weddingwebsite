@@ -36,13 +36,17 @@
 
 <script setup>
 import { ref, computed } from 'vue';
-import LandingSection from './LandingSection.vue';
+import LandingSection from './01_LandingSection.vue';
+import WelcomeSection from './02_WelcomeSection.vue';
+import ScheduleSection from './03_ScheduleSection.vue';
+import TravelSection from './04_TravelSection.vue';
+import WhereToStaySection from './05_WhereToStaySection.vue';
 import AboutUsSection from './AboutUsSection.vue';
-import TravelSection from './TravelSection.vue';
-import ScheduleSection from './ScheduleSection.vue';
-import WhereToStaySection from './WhereToStaySection.vue';
+
+
+
 import QandASection from './QandASection.vue';
-import WelcomeSection from './WelcomeSection.vue';
+
 
 // Use absolute paths pointing to the 'public' folder
 const sections = [

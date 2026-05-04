@@ -7,10 +7,10 @@
 
       <div class="aboutus-text">
         To make your journey as smooth as possible,
-        we’ve outlined a few recommended travel options below.
+        we have outlined a few travel options below.
 
 
-        If you would like assistance coordinating transportation, we are happy to help.
+        If you would like any assistance, we are happy to help.
 
       </div>
 
@@ -43,8 +43,8 @@
         </p>
 
         <p class="mt-4">
-          International flights to Puebla (PBC) are available but limited, so most guests will find flying into Mexico
-          City (MEX) to be the easiest and most flexible option.
+          Puebla Airport (PBC) is about 30 minutes away from Cholula. International flights are limited, 
+          but if you are planning to take a domestic flight, Puebla Airport might be a good option.
         </p>
       </div>
 
@@ -64,7 +64,6 @@
 
         <p>
           From Mexico City Airport, there are lots of ways to get to Cholula!
-          Please feel free to reach out if you need help arranging transportation to Cholula — we are happy to help.
         </p>
 
         <div class="mt-4">
@@ -73,10 +72,10 @@
           Comfortable and efficient
           <ul>
             <li>
-              Bus (MEX → Puebla CAPU): $15–$30 USD
+              Bus (MEX → Puebla Paseo Destino): $20–$30 USD
             </li>
             <li>
-              Taxi/Uber (Puebla → Cholula): $15–$30 USD
+              Taxi/UBER (Puebla Paseo Destino → Cholula): $15–$20 USD
             </li>
             <li>
               Total travel time: ~2.5–3 hours
@@ -92,20 +91,21 @@
 
 
         <div class="mt-4">
-          <u><b>Option 2: Private Transfer / Airport Taxi </b></u>
+          <u><b>Option 2: UBER / Airport Taxi / Private Transfer </b></u>
           <br />
           Direct and convenient
           <br />
 
           <ul>
             <li>
-              Cost: $100–$160 USD per car
+              Cost: $80–$160 USD per car
             </li>
             <li>
               Travel time: ~1.5–2 hours
             </li>
           </ul>
           After customs, proceed to the official taxi counter or meet your pre-arranged driver.
+          Please note that Uber is not permitted to pick up at the airport. The easiest option is to use the bridge to Hotel Camino Real and request an Uber from there.
 
         </div>
 

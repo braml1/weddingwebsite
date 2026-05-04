@@ -6,13 +6,14 @@
 
     <div class="row g-0 mt-4">
             <div class="aboutus-text mb-3">
-        The celebration will unfold within a historic hacienda, 
-        where time slows and every moment unfolds with intention.
+The celebration will take place at a historic hacienda, 
+where architecture and landscape set the tone for the evening, 
+followed by dinner and dancing.
       </div>
 
       <!-- LEFT COLUMN -->
       <div class="col d-flex flex-column">
-        <div v-for="item in leftEvents" :key="item.time" class="d-flex align-items-center gap-3 px-2 py-4 text-start">
+        <div v-for="item in leftEvents" :key="item.time" class="d-flex align-items-center gap-3 ps-5 py-3 text-start">
           <div class="ws-icon flex-shrink-0 d-flex align-items-center justify-content-center" v-html="item.icon"></div>
           <div>
             <div class="ws-time fw-bold">{{ item.time }}</div>
@@ -27,7 +28,7 @@
       <!-- RIGHT COLUMN -->
       <div class="col d-flex flex-column">
         <div v-for="(item, index) in rightEvents" :key="item.time"
-          class="d-flex flex-row-reverse align-items-center gap-3 px-2 py-4 text-end" :class="index === 0 ? 'mt-5' : 'mt-2'">
+          class="d-flex flex-row-reverse align-items-center gap-3 pe-5 py-3 text-end" :class="index === 0 ? 'mt-5' : 'mt-2'">
           <div class="ws-icon flex-shrink-0 d-flex align-items-center justify-content-center" v-html="item.icon"></div>
           <div>
             <div class="ws-time fw-bold">{{ item.time }}</div>
@@ -40,9 +41,9 @@
     </div>
 
     <div class="aboutus-text text-start mt-3">
-      <b>Location:</b> 
+      <b>Location:</b>     Salon Troje at
  
-      <span style="cursor: pointer; color:rgb(157, 91, 75)" @click="navigateToWebsite('https://maps.app.goo.gl/dFuKj8nCi5ozygNC9')">
+      <span style="cursor: pointer; color:rgb(157, 91, 75)" @click="navigateToWebsite('https://maps.app.goo.gl/dFuKj8nCi5ozygNC9')" class="mx-0">
         Hacienda San Jose Actipan 
         <svg viewBox="0 0 32 32" width="40" height="40">
           <path fill-rule="evenodd" clip-rule="evenodd"
@@ -50,7 +51,9 @@
             fill="currentColor">
           </path>
         </svg>
+
       </span>
+  
       <br />
 
 
