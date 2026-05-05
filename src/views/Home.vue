@@ -58,7 +58,8 @@ const imageClassMap = {
   '/img/ring.webp': 'start-from-top',
   '/img/runInSnow.webp': 'start-from-bottom',
   '/img/walkInForests.webp': 'start-from-top', // no extra class
-  '/img/kiss.webp': 'start-from-top'
+  '/img/kiss.webp': 'start-from-top',
+  '/img/standingInForest2.webp': 'start-from-top'
 };
 
 const extraClass = computed(() => imageClassMap[activeImage.value] || '');
