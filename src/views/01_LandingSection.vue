@@ -170,14 +170,14 @@ onUnmounted(() => {
 }
 
 .lang-link {
-  background: none;
+  background: white;
   border: none;
   color: #333; /* Or white if your background image is dark */
   font-family: 'Quicksand', sans-serif;
   font-size: 0.8rem;
   letter-spacing: 2px;
   text-decoration: none;
-  opacity: 0.8;
+  opacity: 0.75;
   transition: opacity 0.3s ease;
   cursor: pointer;
   padding: 5px;

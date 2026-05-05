@@ -4,7 +4,7 @@
     <div class="left-pane">
       <div class="static-overlay">
         <div class="overlay-title">Mariel & Bram</div>
-        <div class="overlay-text"> We can't wait to share our special day with you.</div>
+        <div class="overlay-text"> {{ dataStore.t('photo') }} </div>
 
         <!-- <transition name="fade-content" mode="out-in">
           <div :key="activeCaption">
@@ -19,7 +19,7 @@
     </div>
 
     <div class="right-pane">
-      <LandingSection image="/img/standingInForest.webp" @is-visible="updateImage" language="en" />
+      <LandingSection image="/img/standingInForest2.webp" @is-visible="updateImage" />
 
       <WelcomeSection image="/img/walkWithMountain2.webp" @is-visible="updateImage" />
       <ScheduleSection image="/img/kiss.webp" @is-visible="updateImage" />
@@ -42,19 +42,13 @@ import ScheduleSection from './03_ScheduleSection.vue';
 import TravelSection from './04_TravelSection.vue';
 import WhereToStaySection from './05_WhereToStaySection.vue';
 import AboutUsSection from './06_AboutUsSection.vue';
-
+import { useDataStore } from '@/stores/DataStore'
+const dataStore = useDataStore()
 
 
 import QandASection from './QandASection.vue';
 
-
-// Use absolute paths pointing to the 'public' folder
-const sections = [
-  { title: "The Ring", description: "Crafted with precision.", image: "/img/ring.webp" },
-  { title: "The Forge", description: "Where fire meets metal.", image: "/img/runInSnow.webp" }
-];
-
-const activeImage = ref(sections[0].image);
+const activeImage = ref("/img/standingInForest.webp");
 
 const updateImage = (newImageUrl) => {
   activeImage.value = newImageUrl;
@@ -152,7 +146,7 @@ const extraClass = computed(() => imageClassMap[activeImage.value] || '');
   left: 10%;
   transform: translateY(-50%);
   z-index: 10;
-  width: 500px;
+  width: 550px;
   padding: 2rem;
 }
 

@@ -1,5 +1,6 @@
 {
   "en": {
+    "photo": "We can't wait to share our special day with you.",
     "welcome": {
       "day": "Saturday",
       "date": "February 20, 2027",
@@ -8,10 +9,23 @@
       "p2": "It means so much to us to celebrate surrounded by the people we love most.  We’ve thoughtfully designed a weekend rooted in connection, warmth and shared moments,  and we hope it feels as special to you as it does to us.",
       "p3": "Everything you need to enjoy your time with us is below.",
       "p4": "We can’t wait to celebrate together!"
+    },
+    "schedule": {
+      "title": "The Celebration Schedule",
+      "saturday": {
+        "title": "Saturday - Wedding Day",
+        "location": "Location",
+        "dresscode": "Formal",
+        "desc": "The celebration will take place at a historic hacienda, where architecture and landscape set the tone for the evening, followed by dinner and dancing."
+      },
+      "sunday": {
+        "title": "Sunday - Brunch"
+      }   
     }
 
   },
   "es": {
+    "photo": "We can't wait to share our special day with you.",
     "welcome": {
       "day": "Sábado",
       "date": "Febrero 20, 2027",
@@ -21,10 +35,23 @@
       "p3": "Everything you need to enjoy your time with us is below.",
       "p4": "We can’t wait to celebrate together!"
 
+    },
+    "schedule": {
+      "title": "The Celebration Schedule",
+      "saturday": {
+        "title": "Saturday - Wedding Day",
+        "location": "Location",
+        "dresscode": "Formal",
+        "desc": "The celebration will take place at a historic hacienda, where architecture and landscape set the tone for the evening, followed by dinner and dancing."
+      },
+      "sunday": {
+        "title": "Sunday - Brunch"
+      }   
     }
 
   },
   "nl": {
+    "photo": "We kijken ernaar uit om onze speciale dag met jullie te delen!",
     "welcome": {
       "day": "Zaterdag",
       "date": "20 Februari 2027",
@@ -33,6 +60,18 @@
       "p2": "Het betekent enorm veel voor ons om dit samen met jullie te mogen vieren, de mensen van wie we het meest houden. We hebben met veel zorg een weekend samengesteld en we hopen dat het voor jullie net zo speciaal voelt als voor ons.",
       "p3": "Alles wat je nodig hebt om van je tijd te genieten, vind je hieronder.",
       "p4": "We kunnen niet wachten om samen met jullie te vieren!"
+    },
+    "schedule": {
+      "title": "Het Programma",
+      "saturday": {
+        "title": "Zaterdag - Bruiloft",
+        "location": "Plaats",
+        "dresscode": "Formeel",
+        "desc": "We vieren het op een historische haciënda, waar de prachtige architectuur en het landschap meteen de sfeer zetten, gevolgd door lekker eten en dansen."
+      },
+      "sunday": {
+        "title": "Zondag - Brunch"
+      }   
     }
 
   }

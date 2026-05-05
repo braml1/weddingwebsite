@@ -2,7 +2,8 @@
   <BaseSection :image="image" @is-visible="$emit('is-visible', $event)">
     <div class="">
       <div class="aboutus-title text-center mt-5">
-        The Celebration Schedule
+
+          {{ dataStore.t('schedule.title') }} 
       </div>
       <!-- <div class="aboutus-text py-3">
         The celebration will unfold within a historic hacienda, 
@@ -22,6 +23,9 @@
 <script setup>
 import Schedule from '@/components/Schedule.vue';
 import BaseSection from './BaseSection.vue';
+import { useDataStore } from '@/stores/DataStore'
+const dataStore = useDataStore()
+
 defineProps(['image']);
 defineEmits(['is-visible']);
 </script>

@@ -1,14 +1,12 @@
 <template>
   <div class="ws-wrap mx-auto px-4 bg-white mb-5">
     <hr class="mx-0">
-    <div class="ws-title text-center py-2">Saturday - Wedding Day</div>
+    <div class="ws-title text-center py-2">{{ dataStore.t('schedule.saturday.title') }} </div>
     <hr class="mx-0 mt-3">
 
     <div class="row g-0 mt-4 ">
       <div class="aboutus-text mb-3">
-        The celebration will take place at a historic hacienda,
-        where architecture and landscape set the tone for the evening,
-        followed by dinner and dancing.
+        {{ dataStore.t('schedule.saturday.desc') }}
       </div>
     </div>
 
@@ -48,7 +46,7 @@
 
 
     <div class="aboutus-text text-start mt-3">
-      <b>Location:</b> Salon Troje at
+      <b>{{ dataStore.t('schedule.saturday.location') }}:</b> Salon Troje @
 
       <span style="cursor: pointer; color:rgb(157, 91, 75)"
         @click="navigateToWebsite('https://maps.app.goo.gl/dFuKj8nCi5ozygNC9')" class="mx-0">
@@ -65,11 +63,11 @@
       <br />
 
 
-      <b>Dress code:</b> Formal
+      <b>Dress code:</b> {{ dataStore.t('schedule.saturday.dresscode') }}
     </div>
 
     <hr class="mx-0 mt-5">
-    <div class="ws-title text-center py-2">Sunday - Brunch </div>
+    <div class="ws-title text-center py-2">{{ dataStore.t('schedule.sunday.title') }} </div>
     <hr class="mx-0 mt-3">
 
     <div class="aboutus-text text-start">
@@ -101,6 +99,9 @@
 </template>
 
 <script setup>
+
+import { useDataStore } from '@/stores/DataStore'
+const dataStore = useDataStore()
 
 
 const leftEvents = [
