@@ -13,38 +13,35 @@
     </div>
 
 
-    <div class="row position-relative">
+    <div class="row ">
 
 
 
       <!-- LEFT COLUMN -->
-      <div class="col-6 d-flex flex-column px-5">
-        <div class="row">
-          <div v-for="item in leftEvents" :key="item.time" class="d-flex align-items-center  py-3 text-start ps-2">
-            <div class="ws-icon d-flex align-items-center justify-content-center" v-html="item.icon"></div>
-            <div>
-              <div class="ws-time fw-bold text-end">{{ item.time }}</div>
-              <div class="ws-label text-uppercase text-end" v-html="item.label"></div>
-            </div>
+      <div class="col-6 d-flex flex-column">
+        <div v-for="item in leftEvents" :key="item.time"
+          class="d-flex flex-row align-items-center py-3 justify-content-end pe-3">
+          <div class="ws-icon d-flex align-items-center justify-content-end pe-3" v-html="item.icon"></div>
+          <div style="width: 75px;">
+            <div class="ws-time fw-bold text-end">{{ item.time }}</div>
+            <div class="ws-label text-uppercase text-end" v-html="item.label"></div>
           </div>
-
         </div>
-
-
       </div>
 
 
       <!-- RIGHT COLUMN -->
-      <div class="col-6 d-flex flex-column px-5 " style="border-left: 2px solid #ccc;">
+      <div class="col-6 d-flex flex-column" style="border-left: 2px solid #ccc;">
         <div v-for="(item, index) in rightEvents" :key="item.time"
-          class="d-flex flex-row-reverse align-items-center py-3 text-end pe-3" :class="index === 0 ? 'mt-5' : 'mt-2'">
-          <div class="ws-icon d-flex align-items-center justify-content-center" v-html="item.icon"></div>
-          <div>
-            <div class="ws-time fw-bold">{{ item.time }}</div>
-            <div class="ws-label text-uppercase" v-html="item.label"></div>
+          class="d-flex flex-row align-items-center py-3 text-start ps-3 " :class="index === 0 ? 'mt-5' : 'mt-2'">
+          <div style="width: 65px;">
+            <div class="ws-time fw-bold text-start">{{ item.time }}</div>
+            <div class="ws-label text-uppercase text-start" v-html="item.label"></div>
           </div>
+          <div class="ws-icon d-flex align-items-center justify-content-start ps-3" v-html="item.icon"></div>
         </div>
       </div>
+
     </div>
 
 
