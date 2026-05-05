@@ -5,7 +5,9 @@
       "date": "February 20, 2027",
       "title": "Welcome",
       "p1": "We are so happy to welcome you into this moment of our lives.",
-      "p2": "It means so much to us to celebrate surrounded by the people we love most.  We’ve thoughtfully designed a weekend rooted in connection, warmth and shared moments,  and we hope it feels as special to you as it does to us."
+      "p2": "It means so much to us to celebrate surrounded by the people we love most.  We’ve thoughtfully designed a weekend rooted in connection, warmth and shared moments,  and we hope it feels as special to you as it does to us.",
+      "p3": "Everything you need to enjoy your time with us is below.",
+      "p4": "We can’t wait to celebrate together!"
     }
 
   },
@@ -15,8 +17,9 @@
       "date": "Febrero 20, 2027",
       "title": "Welcome",
       "p1": "We are so happy to welcome you into this moment of our lives.",
-      "p2": "It means so much to us to celebrate surrounded by the people we love most.  We’ve thoughtfully designed a weekend rooted in connection, warmth and shared moments,  and we hope it feels as special to you as it does to us."
-
+      "p2": "It means so much to us to celebrate surrounded by the people we love most.  We’ve thoughtfully designed a weekend rooted in connection, warmth and shared moments,  and we hope it feels as special to you as it does to us.",
+      "p3": "Everything you need to enjoy your time with us is below.",
+      "p4": "We can’t wait to celebrate together!"
 
     }
 
@@ -26,9 +29,10 @@
       "day": "Zaterdag",
       "date": "20 Februari 2027",
       "title": "Welkom",
-      "p1": "Wij zijn ontzettend blij om jullie te mogen verwelkomen in dit bijzondere moment van ons leven.",
-      "p2": "Het betekent enorm veel voor ons om dit te vieren, omringd door de mensen van wie we het meest houden. We hebben met veel zorg een weekend samengesteld en we hopen dat het voor jullie net zo speciaal voelt als voor ons."
-
+      "p1": "Wij zijn ontzettend blij om jullie te mogen verwelkomen op dit bijzondere moment van ons leven.",
+      "p2": "Het betekent enorm veel voor ons om dit samen met jullie te mogen vieren, de mensen van wie we het meest houden. We hebben met veel zorg een weekend samengesteld en we hopen dat het voor jullie net zo speciaal voelt als voor ons.",
+      "p3": "Alles wat je nodig hebt om van je tijd te genieten, vind je hieronder.",
+      "p4": "We kunnen niet wachten om samen met jullie te vieren!"
     }
 
   }

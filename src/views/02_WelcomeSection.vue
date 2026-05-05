@@ -11,17 +11,16 @@
         </p>
 
         <p>
-          It means so much to us to celebrate surrounded by the people we love most. 
-          We’ve thoughtfully designed a weekend rooted in connection, warmth and shared moments, 
-          and we hope it feels as special to you as it does to us.
+          {{ dataStore.t('welcome.p2') }} 
 
         </p>
         <p>
-          Everything you need to enjoy your time with us is below.
+          {{ dataStore.t('welcome.p3') }} 
+
         </p>
         <p>
 
-          We can’t wait to celebrate together!
+          {{ dataStore.t('welcome.p4') }} 
         </p>
       </div>
 
