@@ -5,7 +5,7 @@
         Where To Stay
       </div>
 
-      <div class="aboutus-text text-start mt-3 mx-5">
+      <div class="aboutus-text text-start mt-3">
 
         If staying in Cholula, we recommend the following hotels for their charm, central location, and proximity
         to the venue :
@@ -33,7 +33,7 @@
         Things to do
       </div>
 
-      <div class="aboutus-text text-start mt-3 mx-5">
+      <div class="aboutus-text text-start mt-3">
         <p>
         For those spending extra time in Cholula, here are a few of our favorite spots for food, drinks, and exploring.
         </p>
@@ -87,7 +87,7 @@ defineEmits(['is-visible']);
   font-size: 17px;
   line-height: 25px;
   color: rgb(51, 51, 51);
-  padding-left: 64px;
-  padding-right: 64px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 </style>

@@ -2,12 +2,12 @@
   <BaseSection :image="image" @is-visible="$emit('is-visible', $event)">
     <div class="">
       <div class="aboutus-title text-center mt-5">
-        Welcome
+         {{ dataStore.t('welcome.title') }} 
       </div>
 
       <div class="aboutus-text text-center mt-5 mx-4">
         <p>        
-        We are so happy to welcome you into this moment of our lives.
+          {{ dataStore.t('welcome.p1') }} 
         </p>
 
         <p>
@@ -30,7 +30,12 @@
 </template>
 
 <script setup>
+
 import BaseSection from './BaseSection.vue';
+import { useDataStore } from '@/stores/DataStore'
+
+
+const dataStore = useDataStore()
 defineProps(['image']);
 defineEmits(['is-visible']);
 </script>

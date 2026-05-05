@@ -5,7 +5,7 @@
       Our Story
     </div>
 
-    <div class="aboutus-text text-center mt-5 mx-4">
+    <div class="aboutus-text text-start mt-5 mx-4">
 
       <p> Our story began far from where either of us grew up. <br />
 
@@ -38,7 +38,7 @@
     </div>
 
 
-    <div class="aboutus-text text-center mt-5 mx-4">
+    <div class="aboutus-text text-center my-5 mx-4 ">
       <p>
         We are so grateful to share this moment with you.
       </p>
