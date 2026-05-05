@@ -87,7 +87,6 @@ defineEmits(['is-visible']);
   font-size: 17px;
   line-height: 25px;
   color: rgb(51, 51, 51);
-  padding-left: 32px;
-  padding-right: 32px;
+  padding: 0 5vw; 
 }
 </style>

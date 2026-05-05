@@ -186,8 +186,7 @@ const navigateToWebsite = (url) => {
   font-size: 16px;
   line-height: 25px;
   color: rgb(51, 51, 51);
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 0 5vw; 
   text-rendering: optimizeLegibility;
   letter-spacing: 0.03em;
 }
