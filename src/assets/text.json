@@ -16,10 +16,18 @@
         "title": "Saturday - Wedding Day",
         "location": "Location",
         "dresscode": "Formal",
+        "event1": "Welcome Reception",
+        "event2": "Wedding Ceremony",
+        "event3": "Garden Cocktails",
+        "event4": "Dinner",
+        "event5": "Celebrate",
         "desc": "The celebration will take place at a historic hacienda, where architecture and landscape set the tone for the evening, followed by dinner and dancing."
+    
       },
       "sunday": {
-        "title": "Sunday - Brunch"
+        "title": "Sunday - Brunch",
+        "desc": "After celebrating with us on Saturday, we would be delighted if you joined us for a brunch on Sunday morning. Come enjoy good food, coffee, and one last chance to gather with family and friends before everyone heads home.",
+        "time": "Time"
       }   
     }
 
@@ -42,10 +50,18 @@
         "title": "Saturday - Wedding Day",
         "location": "Location",
         "dresscode": "Formal",
+        "event1": "Welcome Reception",
+        "event2": "Wedding Ceremony",
+        "event3": "Garden Cocktails",
+        "event4": "Dinner",
+        "event5": "Celebrate",
+
         "desc": "The celebration will take place at a historic hacienda, where architecture and landscape set the tone for the evening, followed by dinner and dancing."
       },
       "sunday": {
-        "title": "Sunday - Brunch"
+        "title": "Sunday - Brunch",
+        "desc": "After celebrating with us on Saturday, we would be delighted if you joined us for a brunch on Sunday morning. Come enjoy good food, coffee, and one last chance to gather with family and friends before everyone heads home.",
+        "time": "Time"
       }   
     }
 
@@ -67,10 +83,17 @@
         "title": "Zaterdag - Bruiloft",
         "location": "Plaats",
         "dresscode": "Formeel",
-        "desc": "We vieren het op een historische haciënda, waar de prachtige architectuur en het landschap meteen de sfeer zetten, gevolgd door lekker eten en dansen."
+        "event1": "Welkom Receptie",
+        "event2": "Ceremonie",
+        "event3": "Cocktails in de tuin",
+        "event4": "Diner",
+        "event5": "Feesten",
+        "desc": "San Jose Actipan is een historishe haciënda waar de prachtige architectuur en het landschap meteen de sfeer zetten, gevolgd door lekker eten en dansen."
       },
       "sunday": {
-        "title": "Zondag - Brunch"
+        "title": "Zondag - Brunch",
+        "desc": "Na het feest op zaterdag zouden we het heel leuk vinden als je op zondagochtend ook aansluit voor een brunch. Kom gezellig nog even samen met familie en vrienden, geniet van lekker eten en koffie, en sluit het weekend samen mooi af.",
+        "time": "Tijd"
       }   
     }
 
