@@ -2,63 +2,52 @@
   <BaseSection :image="image" @is-visible="$emit('is-visible', $event)">
     <div class="">
       <div class="aboutus-title text-center mt-5">
-        Where To Stay
+        {{ dataStore.t('stay.title') }}
       </div>
-
+ 
       <div class="aboutus-text text-start mt-3">
-
-        If staying in Cholula, we recommend the following hotels for their charm, central location, and proximity
-        to the venue :
-
+        {{ dataStore.t('stay.cholula.intro') }}
+ 
         <ul class="">
-          <li><a href="https://casaeva.travel/" target="_blank">Casa Eva</a> </li>
+          <li><a href="https://casaeva.travel/" target="_blank">Casa Eva</a></li>
           <li><a href="https://laquintaluna.com.mx/" target="_blank">Quinta Luna</a></li>
           <li><a href="https://estrelladebelem.com.mx" target="_blank">Estrella de Belém</a></li>
-          <li><a href="https://tilahotel.com/" target="_blank">Hotel Tila</a> </li>
+          <li><a href="https://tilahotel.com/" target="_blank">Hotel Tila</a></li>
         </ul>
-
-
-        Staying in Puebla is also a great option (about a 30-minute drive to the venue). We
-        recommend:
+ 
+        {{ dataStore.t('stay.puebla.intro') }}
         <ul class="">
-          <li><a href="https://www.casareyna.com/" target="_blank">CasaReyna</a> </li>
+          <li><a href="https://www.casareyna.com/" target="_blank">CasaReyna</a></li>
           <li><a href="https://www.banyantree.com/mexico/puebla" target="_blank">Banyan Tree</a></li>
         </ul>
-
-        We suggest using Uber after the celebration, as there are many
-        breathalyzer checkpoints in the area.
+ 
+        {{ dataStore.t('stay.uberNote') }}
       </div>
-
+ 
       <div class="aboutus-title text-center mt-5">
-        Things to do
+        {{ dataStore.t('stay.thingsToDo.title') }}
       </div>
-
+ 
       <div class="aboutus-text text-start mt-3">
-        <p>
-        For those spending extra time in Cholula, here are a few of our favorite spots for food, drinks, and exploring.
-        </p>
-
-
-        Food & drinks:
+        <p>{{ dataStore.t('stay.thingsToDo.intro') }}</p>
+ 
+        {{ dataStore.t('stay.thingsToDo.foodLabel') }}
         <ul class="">
-          <li><a href="https://ciudadsagrada.mx/" target="_blank">Ciudad Sagrada</a> </li>
+          <li><a href="https://ciudadsagrada.mx/" target="_blank">Ciudad Sagrada</a></li>
           <li><a href="https://www.santouagastrobar.com/" target="_blank">Santóua</a></li>
-          <li><a href="https://www.instagram.com/licoreriasanpedritocholula/" target="_blank">Licoreria San Pedrito </a></li>
-          <li><a href="https://cus-cus-cus.res-menu.net/" target="_blank">Cus Cus Cus</a> </li>
+          <li><a href="https://www.instagram.com/licoreriasanpedritocholula/" target="_blank">Licoreria San Pedrito</a></li>
+          <li><a href="https://cus-cus-cus.res-menu.net/" target="_blank">Cus Cus Cus</a></li>
         </ul>
-
-        To explore:
+ 
+        {{ dataStore.t('stay.thingsToDo.exploreLabel') }}
         <ul class="">
-          <li>Great Pyramid of Cholula </li>
-          <li>Santuario de Nuestra Señora de los Remedios</li>
-          <li>Zócalo de San Pedro Cholula</li>
-          <li>Iglesia de San Francisco Acatepec</li>
+          <li>{{ dataStore.t('stay.thingsToDo.explore1') }}</li>
+          <li>{{ dataStore.t('stay.thingsToDo.explore2') }}</li>
+          <li>{{ dataStore.t('stay.thingsToDo.explore3') }}</li>
+          <li>{{ dataStore.t('stay.thingsToDo.explore4') }}</li>
         </ul>
-
-
-
       </div>
-
+ 
     </div>
   </BaseSection>
 </template>
@@ -67,6 +56,10 @@
 import BaseSection from './BaseSection.vue';
 defineProps(['image']);
 defineEmits(['is-visible']);
+
+import { useDataStore } from '@/stores/DataStore'
+const dataStore = useDataStore()
+
 </script>
 
 <style scoped>

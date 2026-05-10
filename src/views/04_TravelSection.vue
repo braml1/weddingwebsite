@@ -2,28 +2,13 @@
   <BaseSection :image="image" @is-visible="$emit('is-visible', $event)">
     <div class="">
       <div class="aboutus-title text-center mt-5">
-        Travel And Transportation
+        {{ dataStore.t('travel.title') }}
       </div>
-
+ 
       <div class="aboutus-text">
-        To make your journey as smooth as possible,
-        we have outlined a few travel options below.
-
-
-        If you would like any assistance, we are happy to help.
-
+        {{ dataStore.t('travel.intro') }}
       </div>
-
-      <!-- <div class="text-center" style="cursor: pointer; color:rgb(157, 91, 75)" @click="navigateToWebsite('https://www.google.com/maps/search/?api=1&query=Cholula%2C+Puebla%2C+Mexico')">
-        <svg viewBox="0 0 32 32" width="40" height="40">
-          <path fill-rule="evenodd" clip-rule="evenodd"
-            d="M5.437 9.041c0-3.73 2.886-6.81 6.52-6.835A.61.61 0 0 1 12 2.204c3.653 0 6.563 3.091 6.563 6.837 0 5.975-3.986 10.694-5.527 12.298a1.401 1.401 0 0 1-1.036.456c-.393 0-.772-.165-1.036-.456-1.54-1.605-5.527-6.34-5.527-12.298zM12 3.406c.013 0 .026 0 .039-.002 2.921.022 5.324 2.516 5.324 5.637 0 5.489-3.702 9.916-5.199 11.474a.597.597 0 0 0-.015.016.202.202 0 0 1-.149.064.202.202 0 0 1-.149-.064.388.388 0 0 0-.015-.016C10.34 18.957 6.637 14.513 6.637 9.04c0-3.134 2.423-5.635 5.363-5.635zM9.332 8.729A2.67 2.67 0 1 1 12 11.4a2.67 2.67 0 0 1-2.668-2.67zM12 4.86a3.87 3.87 0 0 0-3.868 3.87A3.87 3.87 0 1 0 12 4.86z"
-            fill="currentColor">
-
-          </path>
-        </svg>Cholula, Puebla, Mexico
-      </div> -->
-
+ 
       <div class="aboutus-text text-center mt-3">
         <p>
           <svg viewBox="0 0 32 32" width="40" height="40">
@@ -32,95 +17,61 @@
               fill="currentColor"></path>
           </svg>
         </p>
-        <h5>Getting In</h5>
+        <h5>{{ dataStore.t('travel.gettingIn.title') }}</h5>
       </div>
-
+ 
       <div class="aboutus-text text-start mt-3">
-
-        <p>
-          We recommend flying into Mexico City (MEX) and continuing to Cholula, approximately 2 hours away.
-          Arriving at least one day before the wedding will allow you to fully enjoy the experience.
-        </p>
-
-        <p class="mt-4">
-          Puebla Airport (PBC) is about 30 minutes away from Cholula. International flights are limited, 
-          but if you are planning to take a domestic flight, Puebla Airport might be a good option.
-        </p>
+        <p>{{ dataStore.t('travel.gettingIn.p1') }}</p>
+        <p class="mt-4">{{ dataStore.t('travel.gettingIn.p2') }}</p>
       </div>
-
+ 
       <div class="aboutus-text text-center mt-3">
         <p>
           <svg viewBox="0 0 32 32" width="40" height="40">
-
-
             <path fill-rule="evenodd"
               d="M13.029 3.43c-2.473 0-4.687 1.534-5.556 3.85l-.436 1.162c-.329-.196-.671-.267-.976-.293-.224-.019-.469-.015-.672-.012h0l-.194.002h-.008-.008a2.19 2.19 0 0 0-2.113 2.174c0 .898.563 1.683 1.354 2.011-.628.595-1.02 1.438-1.02 2.372v4a7.24 7.24 0 0 0 2.001 5.008v2.869a1.7 1.7 0 0 0 .167.796c.121.253.299.473.515.653a2.33 2.33 0 0 0 .738.409 2.63 2.63 0 0 0 1.691 0 2.33 2.33 0 0 0 .738-.409c.216-.18.394-.4.515-.653a1.7 1.7 0 0 0 .167-.796v-.647c.242.024.487.037.734.037h10.667c.248 0 .493-.012.734-.037v.647a1.7 1.7 0 0 0 .167.796 1.94 1.94 0 0 0 .515.653 2.33 2.33 0 0 0 .738.409 2.63 2.63 0 0 0 1.691 0c.27-.092.522-.229.738-.409s.394-.4.515-.653.177-.52.167-.796v-2.869a7.24 7.24 0 0 0 2.001-5.008v-4c0-.934-.392-1.777-1.021-2.372.791-.328 1.354-1.113 1.354-2.011A2.19 2.19 0 0 0 26.82 8.14h-.009-.008c-.058 0-.123-.001-.194-.002-.203-.003-.448-.008-.672.012-.305.026-.646.097-.976.293l-.436-1.162c-.868-2.316-3.082-3.85-5.556-3.85h-5.941zM25.4 9.611l.629 1.677h.765a.99.99 0 0 0 .94-.974.99.99 0 0 0-.94-.974l-.269-.003h0 0c-.178-.003-.326-.006-.485.008-.21.018-.363.062-.49.145a.92.92 0 0 0-.15.121zm-.067 3.019H6.667c-1.141 0-2.067.925-2.067 2.067v4a6.07 6.07 0 0 0 6.067 6.067h10.667a6.07 6.07 0 0 0 6.067-6.067v-4c0-1.141-.925-2.067-2.067-2.067zm-18.134-1.2h17.602l-1.398-3.729c-.693-1.847-2.459-3.071-4.432-3.071h-5.941c-1.973 0-3.739 1.224-4.432 3.071L7.199 11.43zm-1.228-.142h-.765a.99.99 0 0 1-.94-.974.99.99 0 0 1 .94-.974l.269-.003h0 0l.485.008c.21.018.363.062.49.145a.93.93 0 0 1 .15.121l-.629 1.677zm17.297 14.415a7.23 7.23 0 0 0 2.131-.982v1.865.014l.001.014a.5.5 0 0 1-.051.239.74.74 0 0 1-.199.247 1.13 1.13 0 0 1-.358.196 1.43 1.43 0 0 1-.459.074 1.43 1.43 0 0 1-.459-.074 1.13 1.13 0 0 1-.358-.196.74.74 0 0 1-.199-.247.5.5 0 0 1-.051-.239l.001-.014v-.014-.883zm-16.667-.982a7.23 7.23 0 0 0 2.131.982v.883.014l.001.014a.5.5 0 0 1-.051.239.74.74 0 0 1-.199.247 1.13 1.13 0 0 1-.358.196 1.43 1.43 0 0 1-.459.074 1.43 1.43 0 0 1-.459-.074 1.13 1.13 0 0 1-.358-.196.74.74 0 0 1-.199-.247.5.5 0 0 1-.051-.239l.001-.014v-.014-1.865zm5.999-7.682c0-.025.02-.045.045-.045h6.711c.025 0 .045.02.045.045v2.711c0 .025-.02.045-.045.045h-6.711c-.025 0-.045-.02-.045-.045v-2.711zm.045-1.245c-.687 0-1.245.557-1.245 1.245v2.711c0 .688.557 1.245 1.245 1.245h6.711c.687 0 1.245-.557 1.245-1.245v-2.711c0-.687-.557-1.245-1.245-1.245h-6.711zM8 15.014a1.41 1.41 0 1 0 0 2.821 1.41 1.41 0 1 0 0-2.821zm-2.61 1.41a2.61 2.61 0 1 1 5.221 0 2.61 2.61 0 1 1-5.221 0zm17.2 0a1.41 1.41 0 1 1 2.821 0 1.41 1.41 0 1 1-2.821 0zm1.41-2.61a2.61 2.61 0 1 0 0 5.221 2.61 2.61 0 1 0 0-5.221z"
               fill="currentColor"></path>
           </svg>
         </p>
-        <h5>Arrival in Cholula, Puebla</h5>
+        <h5>{{ dataStore.t('travel.arrival.title') }}</h5>
       </div>
+ 
       <div class="aboutus-text text-start mt-3">
-
-        <p>
-          From Mexico City Airport, there are lots of ways to get to Cholula!
-        </p>
-
+        <p>{{ dataStore.t('travel.arrival.intro') }}</p>
+ 
         <div class="mt-4">
-          <u><b>Option 1: Bus to Puebla + Taxi/Uber to Cholula</b> </u>
+          <u><b>{{ dataStore.t('travel.arrival.option1.title') }}</b></u>
           <br />
-          Comfortable and efficient
+          {{ dataStore.t('travel.arrival.option1.subtitle') }}
           <ul>
-            <li>
-              Bus (MEX → Puebla Paseo Destino): $20–$30 USD
-            </li>
-            <li>
-              Taxi/UBER (Puebla Paseo Destino → Cholula): $15–$20 USD
-            </li>
-            <li>
-              Total travel time: ~2.5–3 hours
-            </li>
+            <li>{{ dataStore.t('travel.arrival.option1.bullet1') }}</li>
+            <li>{{ dataStore.t('travel.arrival.option1.bullet2') }}</li>
+            <li>{{ dataStore.t('travel.arrival.option1.bullet3') }}</li>
           </ul>
-
-
-          At the airport, follow signs to the Terminal de Autobuses del Aeropuerto.
+          {{ dataStore.t('travel.arrival.option1.note1') }}
           <br />
-          We suggest ADO (Primera, GL, or Platino) for comfort and frequency.
-
+          {{ dataStore.t('travel.arrival.option1.note2') }}
         </div>
-
-
+ 
         <div class="mt-4">
-          <u><b>Option 2: UBER / Airport Taxi / Private Transfer </b></u>
+          <u><b>{{ dataStore.t('travel.arrival.option2.title') }}</b></u>
           <br />
-          Direct and convenient
+          {{ dataStore.t('travel.arrival.option2.subtitle') }}
           <br />
-
           <ul>
-            <li>
-              Cost: $80–$160 USD per car
-            </li>
-            <li>
-              Travel time: ~1.5–2 hours
-            </li>
+            <li>{{ dataStore.t('travel.arrival.option2.bullet1') }}</li>
+            <li>{{ dataStore.t('travel.arrival.option2.bullet2') }}</li>
           </ul>
-          After customs, proceed to the official taxi counter or meet your pre-arranged driver.
-          Please note that Uber is not permitted to pick up at the airport. The easiest option is to use the bridge to Hotel Camino Real and request an Uber from there.
-
+          {{ dataStore.t('travel.arrival.option2.note1') }}
         </div>
-
-
-
+ 
         <p class="mt-4">
-          <u><b>Option 3: Car Rental </b></u>
+          <u><b>{{ dataStore.t('travel.arrival.option3.title') }}</b></u>
           <br />
-          Available at both terminals.
-          Full insurance is recommended.
+          {{ dataStore.t('travel.arrival.option3.subtitle') }}
         </p>
-
-
       </div>
-
+ 
       <div class="aboutus-text text-center mt-3">
 
 <svg class="mb-0" width="80" height="80" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
@@ -129,31 +80,18 @@ version="1.1" x="0px" y="0px" viewBox="0 0 100 125" enable-background="new 0 0 1
 </svg>
 
     
-        <h5 >Getting Around</h5>
+        <h5 >{{ dataStore.t('travel.gettingAround.title') }}</h5>
       </div>
-
+ 
       <div class="aboutus-text text-start mt-3">
-        Cholula is a small, charming town.
-
+        {{ dataStore.t('travel.gettingAround.intro') }}
         <ul>
-          <li>
-            Most locations are walkable or within a 5–10-minute drive
-
-          </li>
-          <li>
-            Uber and taxis are readily available
-          </li>
-          <li>
-
-            Hotel concierge services can assist with arranging transportation
-
-          </li>
+          <li>{{ dataStore.t('travel.gettingAround.bullet1') }}</li>
+          <li>{{ dataStore.t('travel.gettingAround.bullet2') }}</li>
+          <li>{{ dataStore.t('travel.gettingAround.bullet3') }}</li>
         </ul>
-
-
       </div>
-
-
+ 
     </div>
   </BaseSection>
 </template>
@@ -166,6 +104,10 @@ defineEmits(['is-visible']);
 const navigateToWebsite = (url) => {
   window.open(url, '_blank', 'noopener,noreferrer');
 }
+
+import { useDataStore } from '@/stores/DataStore'
+const dataStore = useDataStore()
+
 
 </script>
 

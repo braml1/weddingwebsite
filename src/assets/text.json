@@ -22,15 +22,125 @@
         "event4": "Dinner",
         "event5": "Celebrate",
         "desc": "The celebration will take place at a historic hacienda, where architecture and landscape set the tone for the evening, followed by dinner and dancing."
-    
       },
       "sunday": {
         "title": "Sunday - Brunch",
         "desc": "After celebrating with us on Saturday, we would be delighted if you joined us for a brunch on Sunday morning. Come enjoy good food, coffee, and one last chance to gather with family and friends before everyone heads home.",
         "time": "Time"
-      }   
+      }
+    },
+    "travel": {
+      "title": "Travel And Transportation",
+      "intro": "To make your journey as smooth as possible, we have outlined a few travel options below. If you would like any assistance, we are happy to help.",
+      "gettingIn": {
+        "title": "Getting In",
+        "p1": "We recommend flying into Mexico City (MEX) and continuing to Cholula, approximately 2 hours away. Arriving at least one day before the wedding will allow you to fully enjoy the experience.",
+        "p2": "Puebla Airport (PBC) is about 30 minutes away from Cholula. International flights are limited, but if you are planning to take a domestic flight, Puebla Airport might be a good option."
+      },
+      "arrival": {
+        "title": "Arrival in Cholula, Puebla",
+        "intro": "From Mexico City Airport, there are lots of ways to get to Cholula!",
+        "option1": {
+          "title": "Option 1: Bus to Puebla + Taxi/Uber to Cholula",
+          "subtitle": "Comfortable and efficient",
+          "bullet1": "Bus (MEX → Puebla Paseo Destino): $20–$30 USD",
+          "bullet2": "Taxi/UBER (Puebla Paseo Destino → Cholula): $15–$20 USD",
+          "bullet3": "Total travel time: ~2.5–3 hours",
+          "note1": "At the airport, follow signs to the Terminal de Autobuses del Aeropuerto.",
+          "note2": "We suggest ADO (Primera, GL, or Platino) for comfort and frequency."
+        },
+        "option2": {
+          "title": "Option 2: UBER / Airport Taxi / Private Transfer",
+          "subtitle": "Direct and convenient",
+          "bullet1": "Cost: $80–$160 USD per car",
+          "bullet2": "Travel time: ~1.5–2 hours",
+          "note1": "After customs, proceed to the official taxi counter or meet your pre-arranged driver. Please note that Uber is not permitted to pick up at the airport. The easiest option is to use the bridge to Hotel Camino Real and request an Uber from there."
+        },
+        "option3": {
+          "title": "Option 3: Car Rental",
+          "subtitle": "Available at both terminals. Full insurance is recommended."
+        }
+      },
+      "gettingAround": {
+        "title": "Getting Around",
+        "intro": "Cholula is a small, charming town.",
+        "bullet1": "Most locations are walkable or within a 5–10-minute drive",
+        "bullet2": "Uber and taxis are readily available",
+        "bullet3": "Hotel concierge services can assist with arranging transportation"
+      }
+    },
+    "stay": {
+      "title": "Where To Stay",
+      "cholula": {
+        "intro": "If staying in Cholula, we recommend the following hotels for their charm, central location, and proximity to the venue:"
+      },
+      "puebla": {
+        "intro": "Staying in Puebla is also a great option (about a 30-minute drive to the venue). We recommend:"
+      },
+      "uberNote": "We suggest using Uber after the celebration, as there are many breathalyzer checkpoints in the area.",
+      "thingsToDo": {
+        "title": "Things To Do",
+        "intro": "For those spending extra time in Cholula, here are a few of our favorite spots for food, drinks, and exploring.",
+        "foodLabel": "Food & drinks:",
+        "exploreLabel": "To explore:",
+        "explore1": "Great Pyramid of Cholula",
+        "explore2": "Santuario de Nuestra Señora de los Remedios",
+        "explore3": "Zócalo de San Pedro Cholula",
+        "explore4": "Iglesia de San Francisco Acatepec"
+      }
+    },
+    "qa": {
+      "title": "Q & A",
+      "q1": {
+        "question": "When is the RSVP deadline?",
+        "answer": "Please RSVP by January 15 so we can finalize arrangements."
+      },
+      "q2": {
+        "question": "Can I bring a guest?",
+        "answer": "Please refer to your invitation for details regarding your guest."
+      },
+      "q3": {
+        "question": "Are children welcome?",
+        "answer": "We are delighted to welcome children and celebrate with families. We kindly ask that little ones remain supervised throughout the evening."
+      },
+      "q4": {
+        "question": "What should I wear?",
+        "answer": "The wedding day dress code is formal. The ceremony will be outdoors, followed by an indoor dinner. We recommend bringing a light layer for the evening."
+      },
+      "q5": {
+        "question": "What will the weather be like?",
+        "answer": "February in Cholula is typically warm and sunny during the day, with cooler evenings."
+      },
+      "q6": {
+        "question": "Where can I park?",
+        "answer": "Free valet parking will be available at the hacienda."
+      },
+      "q7": {
+        "question": "Can I take photos during the ceremony?",
+        "answer": "We invite you to be fully present during the ceremony and kindly ask that phones remain away."
+      },
+      "q8": {
+        "question": "Do you have any wishes for gifts?",
+        "answer": "Just being there with us is more than enough. Your presence is what we value most."
+      },
+      "q9": {
+        "question": "Whom should I call with questions?",
+        "answer": "Please contact Mariel or Bram directly through WhatsApp if you have any other question."
+      }
+    },
+    "story": {
+      "title": "Our Story",
+      "p1": "Our story began far from where either of us grew up.\nBram is from Belgium, Mariel from Mexico — and somehow, life brought us both to Calgary, a city that quickly became home, and the place where everything began.",
+      "p2": "What started as a chance meeting grew into a love shaped by curiosity, adventure, and a shared sense of humor.",
+      "p3": "From spontaneous trips to the quiet rhythm of everyday life, we discovered how much we love exploring the world together — and finding joy in even the smallest moments.",
+      "p4": "As our journey continues, we've chosen a place to celebrate that feels just as meaningful as the path that brought us here.",
+      "finalNote": {
+        "title": "Final Note",
+        "p1": "We are so grateful to share this moment with you.",
+        "p2": "We can't wait to celebrate together in Cholula!",
+        "closing": "With love,"
+      }
     }
-
   },
   "es": {
     "photo": "We can't wait to share our special day with you.",
@@ -42,7 +152,6 @@
       "p2": "It means so much to us to celebrate surrounded by the people we love most.  We’ve thoughtfully designed a weekend rooted in connection, warmth and shared moments,  and we hope it feels as special to you as it does to us.",
       "p3": "Everything you need to enjoy your time with us is below.",
       "p4": "We can’t wait to celebrate together!"
-
     },
     "schedule": {
       "title": "The Celebration Schedule",
@@ -55,16 +164,126 @@
         "event3": "Garden Cocktails",
         "event4": "Dinner",
         "event5": "Celebrate",
-
         "desc": "The celebration will take place at a historic hacienda, where architecture and landscape set the tone for the evening, followed by dinner and dancing."
       },
       "sunday": {
         "title": "Sunday - Brunch",
         "desc": "After celebrating with us on Saturday, we would be delighted if you joined us for a brunch on Sunday morning. Come enjoy good food, coffee, and one last chance to gather with family and friends before everyone heads home.",
-        "time": "Time"
-      }   
+        "time": "ime"
+      }
+    },
+    "travel": {
+      "title": "Travel And Transportation",
+      "intro": "To make your journey as smooth as possible, we have outlined a few travel options below. If you would like any assistance, we are happy to help.",
+      "gettingIn": {
+        "title": "Getting In",
+        "p1": "We recommend flying into Mexico City (MEX) and continuing to Cholula, approximately 2 hours away. Arriving at least one day before the wedding will allow you to fully enjoy the experience.",
+        "p2": "Puebla Airport (PBC) is about 30 minutes away from Cholula. International flights are limited, but if you are planning to take a domestic flight, Puebla Airport might be a good option."
+      },
+      "arrival": {
+        "title": "Arrival in Cholula, Puebla",
+        "intro": "From Mexico City Airport, there are lots of ways to get to Cholula!",
+        "option1": {
+          "title": "Option 1: Bus to Puebla + Taxi/Uber to Cholula",
+          "subtitle": "Comfortable and efficient",
+          "bullet1": "Bus (MEX → Puebla Paseo Destino): $20–$30 USD",
+          "bullet2": "Taxi/UBER (Puebla Paseo Destino → Cholula): $15–$20 USD",
+          "bullet3": "Total travel time: ~2.5–3 hours",
+          "note1": "At the airport, follow signs to the Terminal de Autobuses del Aeropuerto.",
+          "note2": "We suggest ADO (Primera, GL, or Platino) for comfort and frequency."
+        },
+        "option2": {
+          "title": "Option 2: UBER / Airport Taxi / Private Transfer",
+          "subtitle": "Direct and convenient",
+          "bullet1": "Cost: $80–$160 USD per car",
+          "bullet2": "Travel time: ~1.5–2 hours",
+          "note1": "After customs, proceed to the official taxi counter or meet your pre-arranged driver. Please note that Uber is not permitted to pick up at the airport. The easiest option is to use the bridge to Hotel Camino Real and request an Uber from there."
+        },
+        "option3": {
+          "title": "Option 3: Car Rental",
+          "subtitle": "Available at both terminals. Full insurance is recommended."
+        }
+      },
+      "gettingAround": {
+        "title": "Getting Around",
+        "intro": "Cholula is a small, charming town.",
+        "bullet1": "Most locations are walkable or within a 5–10-minute drive",
+        "bullet2": "Uber and taxis are readily available",
+        "bullet3": "Hotel concierge services can assist with arranging transportation"
+      }
+    },
+    "stay": {
+      "title": "Where To Stay",
+      "cholula": {
+        "intro": "If staying in Cholula, we recommend the following hotels for their charm, central location, and proximity to the venue:"
+      },
+      "puebla": {
+        "intro": "Staying in Puebla is also a great option (about a 30-minute drive to the venue). We recommend:"
+      },
+      "uberNote": "We suggest using Uber after the celebration, as there are many breathalyzer checkpoints in the area.",
+      "thingsToDo": {
+        "title": "Things To Do",
+        "intro": "For those spending extra time in Cholula, here are a few of our favorite spots for food, drinks, and exploring.",
+        "foodLabel": "Food & drinks:",
+        "exploreLabel": "To explore:",
+        "explore1": "Great Pyramid of Cholula",
+        "explore2": "Santuario de Nuestra Señora de los Remedios",
+        "explore3": "Zócalo de San Pedro Cholula",
+        "explore4": "Iglesia de San Francisco Acatepec"
+      }
+    },
+    "qa": {
+      "title": "Q & A",
+      "q1": {
+        "question": "When is the RSVP deadline?",
+        "answer": "Please RSVP by January 15 so we can finalize arrangements."
+      },
+      "q2": {
+        "question": "Can I bring a guest?",
+        "answer": "Please refer to your invitation for details regarding your guest."
+      },
+      "q3": {
+        "question": "Are children welcome?",
+        "answer": "We are delighted to welcome children and celebrate with families. We kindly ask that little ones remain supervised throughout the evening."
+      },
+      "q4": {
+        "question": "What should I wear?",
+        "answer": "The wedding day dress code is formal. The ceremony will be outdoors, followed by an indoor dinner. We recommend bringing a light layer for the evening."
+      },
+      "q5": {
+        "question": "What will the weather be like?",
+        "answer": "February in Cholula is typically warm and sunny during the day, with cooler evenings."
+      },
+      "q6": {
+        "question": "Where can I park?",
+        "answer": "Free valet parking will be available at the hacienda."
+      },
+      "q7": {
+        "question": "Can I take photos during the ceremony?",
+        "answer": "We invite you to be fully present during the ceremony and kindly ask that phones remain away."
+      },
+      "q8": {
+        "question": "Do you have any wishes for gifts?",
+        "answer": "Just being there with us is more than enough. Your presence is what we value most."
+      },
+      "q9": {
+        "question": "Whom should I call with questions?",
+        "answer": "Please contact Mariel or Bram directly through WhatsApp if you have any other question."
+      }
+    },
+    "story": {
+      "title": "Our Story",
+      "p1": "Our story began far from where either of us grew up.\nBram is from Belgium, Mariel from Mexico — and somehow, life brought us both to Calgary, a city that quickly became home, and the place where everything began.",
+      "p2": "What started as a chance meeting grew into a love shaped by curiosity, adventure, and a shared sense of humor.",
+      "p3": "From spontaneous trips to the quiet rhythm of everyday life, we discovered how much we love exploring the world together — and finding joy in even the smallest moments.",
+      "p4": "As our journey continues, we've chosen a place to celebrate that feels just as meaningful as the path that brought us here.",
+      "finalNote": {
+        "title": "Final Note",
+        "p1": "We are so grateful to share this moment with you.",
+        "p2": "We can't wait to celebrate together in Cholula!",
+        "closing": "With love,"
+      }
     }
-
   },
   "nl": {
     "photo": "We kijken ernaar uit om onze speciale dag met jullie te delen!",
@@ -94,8 +313,119 @@
         "title": "Zondag - Brunch",
         "desc": "Na het feest op zaterdag zouden we het heel leuk vinden als je op zondagochtend ook aansluit voor een brunch. Kom gezellig nog even samen met familie en vrienden, geniet van lekker eten en koffie, en sluit het weekend samen mooi af.",
         "time": "Tijd"
-      }   
+      }
+    },
+    "travel": {
+      "title": "Reizen en Vervoer",
+      "intro": "Om jouw reis zo soepel mogelijk te laten verlopen, hebben we een aantal reisopties voor je op een rij gezet. Als je hulp nodig hebt, helpen we je graag verder.",
+      "gettingIn": {
+        "title": "Hoe Kom Je Er",
+        "p1": "We raden aan om te vliegen naar Mexico-Stad (MEX) en daarna door te reizen naar Cholula, op ongeveer 2 uur rijden. Als je minimaal één dag voor de bruiloft aankomt, kun je de ervaring volledig genieten.",
+        "p2": "De luchthaven van Puebla (PBC) ligt op ongeveer 30 minuten van Cholula. Internationale vluchten zijn beperkt, maar als je een binnenlandse vlucht overweegt, kan de luchthaven van Puebla een goede optie zijn."
+      },
+      "arrival": {
+        "title": "Aankomst in Cholula, Puebla",
+        "intro": "Vanuit de luchthaven van Mexico-Stad zijn er meerdere manieren om naar Cholula te reizen.",
+        "option1": {
+          "title": "Optie 1: Bus naar Puebla + Taxi/Uber naar Cholula",
+          "subtitle": "Comfortabel en efficiënt",
+          "bullet1": "Bus (MEX → Puebla Paseo Destino): $20–$30 USD",
+          "bullet2": "Taxi/Uber (Puebla Paseo Destino → Cholula): $15–$20 USD",
+          "bullet3": "Totale reistijd: ~2,5–3 uur",
+          "note1": "Volg op de luchthaven de borden naar de Terminal de Autobuses del Aeropuerto.",
+          "note2": "We raden ADO aan (Primera, GL of Platino) vanwege het comfort en de frequentie."
+        },
+        "option2": {
+          "title": "Optie 2: Uber / Luchthaventaxi / Privétransfer",
+          "subtitle": "Direct en gemakkelijk",
+          "bullet1": "Kosten: $80–$160 USD per auto",
+          "bullet2": "Reistijd: ~1,5–2 uur",
+          "note1": "Na de douane ga je naar de officiële taxibalie of ontmoet je je vooraf geboekte chauffeur. Let op: Uber mag geen passagiers ophalen op de luchthaven zelf. De makkelijkste optie is om via de brug naar Hotel Camino Real te lopen en daar een Uber te bestellen."
+        },
+        "option3": {
+          "title": "Optie 3: Huurauto",
+          "subtitle": "Beschikbaar bij beide terminals. Een volledig verzekeringspakket is aan te raden."
+        }
+      },
+      "gettingAround": {
+        "title": "Rondkomen in Cholula",
+        "intro": "Cholula is een klein en charmant stadje.",
+        "bullet1": "De meeste locaties zijn te voet bereikbaar of op 5–10 minuten rijden",
+        "bullet2": "Uber en taxi's zijn gemakkelijk beschikbaar",
+        "bullet3": "De conciërge van het hotel kan helpen met het regelen van vervoer"
+      }
+    },
+    "stay": {
+      "title": "Waar Te Verblijven",
+      "cholula": {
+        "intro": "Als je in Cholula verblijft, raden we de volgende hotels aan vanwege hun charme, centrale ligging en nabijheid van de locatie:"
+      },
+      "puebla": {
+        "intro": "Verblijven in Puebla is ook een geweldige optie (ongeveer 30 minuten rijden naar de locatie). We raden aan:"
+      },
+      "uberNote": "We raden aan om na de festiviteiten een Uber te nemen, omdat er in de omgeving veel alcoholcontroles zijn.",
+      "thingsToDo": {
+        "title": "Wat Te Doen",
+        "intro": "Voor wie wat extra tijd in Cholula doorbrengt, hier zijn een paar van onze favoriete plekken voor eten, drinken en verkennen.",
+        "foodLabel": "Eten & drinken:",
+        "exploreLabel": "Om te verkennen:",
+        "explore1": "Grote Piramide van Cholula",
+        "explore2": "Santuario de Nuestra Señora de los Remedios",
+        "explore3": "Zócalo de San Pedro Cholula",
+        "explore4": "Iglesia de San Francisco Acatepec"
+      }
+    },
+    "qa": {
+      "title": "Veelgestelde Vragen",
+      "q1": {
+        "question": "Wat is de deadline voor de RSVP?",
+        "answer": "Geef graag voor 15 januari door of je erbij bent."
+      },
+      "q2": {
+        "question": "Mag ik een gast meenemen?",
+        "answer": "Raadpleeg je uitnodiging voor meer informatie."
+      },
+      "q3": {
+        "question": "Zijn kinderen welkom?",
+        "answer": "We verwelkomen kinderen van harte en vieren graag met families. We vragen vriendelijk om de kleintjes de hele avond onder toezicht te houden."
+      },
+      "q4": {
+        "question": "Wat moet ik dragen?",
+        "answer": "De dresscode voor de trouwdag is formeel. De ceremonie vindt buiten plaats, gevolgd door een diner binnen. We raden aan om een lichte extra laag mee te nemen voor de avond."
+      },
+      "q5": {
+        "question": "Hoe is het weer?",
+        "answer": "Februari in Cholula is doorgaans warm en zonnig overdag, met koelere avonden."
+      },
+      "q6": {
+        "question": "Waar kan ik parkeren?",
+        "answer": "Er is gratis valet parking beschikbaar bij de hacienda."
+      },
+      "q7": {
+        "question": "Mag ik foto's nemen tijdens de ceremonie?",
+        "answer": "We nodigen je uit om volledig aanwezig te zijn tijdens de ceremonie en vragen vriendelijk om de telefoon weg te houden."
+      },
+      "q8": {
+        "question": "Hebben jullie wensen voor cadeaus?",
+        "answer": "Jullie aanwezigheid is meer dan genoeg. Het feit dat je er bent is wat we het meest waarderen."
+      },
+      "q9": {
+        "question": "Wie kan ik bellen met vragen?",
+        "answer": "Neem rechtstreeks contact op met Mariel of Bram via WhatsApp als je nog andere vragen hebt."
+      }
+    },
+    "story": {
+      "title": "Ons Verhaal",
+      "p1": "Ons verhaal begon ver van waar we allebei zijn opgegroeid.\nBram komt uit België, Mariel uit Mexico. Het leven bracht ons beiden naar Calgary, een stad die al snel ons thuis werd en de plek waar alles begon.",
+      "p2": "Wat begon als een toevallige ontmoeting groeide uit tot een liefde gevormd door nieuwsgierigheid, avontuur en een veel humor.",
+      "p3": "Van spontane reizen tot het rustige ritme van het dagelijks leven — we ontdekten hoe graag we samen de wereld verkennen en hoe we vreugde vinden in zelfs de kleinste momenten.",
+      "p4": "Nu ons avontuur verder gaat, hebben we een plek gekozen om te vieren die net zo bijzonder voelt als de weg die ons hier heeft gebracht.",
+      "finalNote": {
+        "title": "Tot Slot",
+        "p1": "We zijn zo dankbaar dat we dit moment met jullie mogen delen.",
+        "p2": "We kunnen niet wachten om samen te vieren in Cholula!",
+        "closing": "Tot gauw,"
+      }
     }
-
   }
 }

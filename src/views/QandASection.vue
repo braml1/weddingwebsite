@@ -2,96 +2,85 @@
   <BaseSection :image="image" @is-visible="$emit('is-visible', $event)">
     <div class="">
       <div class="aboutus-title text-center mt-5">
-        Q & A
+        {{ dataStore.t('qa.title') }}
       </div>
-
+ 
       <div class="aboutus-text text-start mt-5 mx-4 fw-bold">
-        When is the RSVP deadline?
+        {{ dataStore.t('qa.q1.question') }}
       </div>
-
       <div class="aboutus-text text-start mt-0 mx-4">
-        Please RSVP by January 15 so we can finalize arrangements.
+        {{ dataStore.t('qa.q1.answer') }}
       </div>
-
+ 
       <div class="aboutus-text text-start mt-4 mx-4 fw-bold">
-        Can I bring a guest?
+        {{ dataStore.t('qa.q2.question') }}
       </div>
-
       <div class="aboutus-text text-start mt-0 mx-4">
-        Please refer to your invitation for details regarding your guest.
+        {{ dataStore.t('qa.q2.answer') }}
       </div>
-
+ 
       <div class="aboutus-text text-start mt-4 mx-4 fw-bold">
-        Are children welcome?
+        {{ dataStore.t('qa.q3.question') }}
       </div>
-
       <div class="aboutus-text text-start mt-0 mx-4">
-        We are delighted to welcome children and celebrate with families. We kindly ask that little ones remain supervised throughout the evening.
+        {{ dataStore.t('qa.q3.answer') }}
       </div>
-
+ 
       <div class="aboutus-text text-start mt-4 mx-4 fw-bold">
-        What should I wear?
+        {{ dataStore.t('qa.q4.question') }}
       </div>
-
       <div class="aboutus-text text-start mt-0 mx-4">
-        The wedding day dress code is formal. The ceremony will be outdoors, followed by an indoor dinner. 
-        We recommend bringing a light layer for the evening.
+        {{ dataStore.t('qa.q4.answer') }}
       </div>
-
-
+ 
       <div class="aboutus-text text-start mt-4 mx-4 fw-bold">
-        What will the weather be like?
+        {{ dataStore.t('qa.q5.question') }}
       </div>
-
       <div class="aboutus-text text-start mt-0 mx-4">
-        February in Cholula is typically warm and sunny during the day, with cooler evenings.
+        {{ dataStore.t('qa.q5.answer') }}
       </div>
-
-
-
+ 
       <div class="aboutus-text text-start mt-4 mx-4 fw-bold">
-        Where can I park?
+        {{ dataStore.t('qa.q6.question') }}
       </div>
-
       <div class="aboutus-text text-start mt-0 mx-4">
-        Free valet parking will be available at the hacienda.
+        {{ dataStore.t('qa.q6.answer') }}
       </div>
-
+ 
       <div class="aboutus-text text-start mt-4 mx-4 fw-bold">
-        Can I take photos during the ceremony?
+        {{ dataStore.t('qa.q7.question') }}
       </div>
-
       <div class="aboutus-text text-start mt-0 mx-4">
-        We invite you to be fully present during the ceremony and kindly ask that phones remain away.
+        {{ dataStore.t('qa.q7.answer') }}
       </div>
-
+ 
       <div class="aboutus-text text-start mt-4 mx-4 fw-bold">
-        Do you have any wishes for gifts?
+        {{ dataStore.t('qa.q8.question') }}
       </div>
-
       <div class="aboutus-text text-start mt-0 mx-4">
-        Just being there with us is more than enough. Your presence is what we value most.
+        {{ dataStore.t('qa.q8.answer') }}
       </div>
-
+ 
       <div class="aboutus-text text-start mt-4 mx-4 fw-bold">
-        Whom should I call with questions?
+        {{ dataStore.t('qa.q9.question') }}
       </div>
-
       <div class="aboutus-text text-start mt-0 mx-4 mb-5">
-        Please contact Mariel or Bram directly through WhatsApp if you have any other question.
+        {{ dataStore.t('qa.q9.answer') }}
       </div>
-
-
-
-
+ 
     </div>
   </BaseSection>
 </template>
+
 
 <script setup>
 import BaseSection from './BaseSection.vue';
 defineProps(['image']);
 defineEmits(['is-visible']);
+
+import { useDataStore } from '@/stores/DataStore'
+const dataStore = useDataStore()
+
 </script>
 
 <style scoped>
