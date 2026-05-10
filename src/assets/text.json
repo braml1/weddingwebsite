@@ -188,7 +188,7 @@
     }
   },
   "es": {
-    "photo": "We can't wait to share our special day with you.",
+    "photo": "Nos emociona muchísimo compartir este momento con ustedes.",
     "welcome": {
       "day": "Sábado",
       "date": "20 de febrero 2027",
@@ -343,8 +343,8 @@
         },
         "attending": {
           "label": "ASISTENCIA",
-          "accepts": "Acepta con mucho gusto",
-          "declines": "Declina con pesar"
+          "accepts": "Con gusto asistiré",
+          "declines": "Lamentablemente no podré asistir"
         },
         "adults": {
           "label": "ADULTOS"
@@ -358,8 +358,8 @@
           "placeholder": "Restricciones alimentarias o comentarios..."
         },
         "brunch": {
-          "label": "BRUNCH",
-          "labelSub": "DOMINICAL",
+          "label": "SUNDAY",
+          "labelSub": "BRUNCH",
           "accepts": "Con gusto asistiré al brunch",
           "declines": "No podré asistir al brunch"
         },
