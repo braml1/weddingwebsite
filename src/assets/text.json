@@ -191,187 +191,187 @@
     "photo": "We can't wait to share our special day with you.",
     "welcome": {
       "day": "Sábado",
-      "date": "Febrero 20, 2027",
-      "title": "Welcome",
-      "p1": "We are so happy to welcome you into this moment of our lives.",
-      "p2": "It means so much to us to celebrate surrounded by the people we love most.  We’ve thoughtfully designed a weekend rooted in connection, warmth and shared moments,  and we hope it feels as special to you as it does to us.",
-      "p3": "Everything you need to enjoy your time with us is below.",
-      "p4": "We can’t wait to celebrate together!"
+      "date": "20 de febrero de 2027",
+      "title": "Bienvenidos",
+      "p1": "Nos llena de felicidad compartir este momento tan especial con ustedes.",
+      "p2": "Significa muchísimo para nosotros poder estar rodeados de las personas que más queremos en un día tan importante. Hemos planeado este fin de semana con mucho cariño, pensando en la conexión, la calidez y los momentos por compartir. Esperamos que lo disfruten tanto como nosotros.",
+      "p3": "Aquí encontrarán toda la información necesaria para acompañarnos.",
+      "p4": "¡Estamos muy emocionados de vivir este fin de semana junto a ustedes!"
     },
     "schedule": {
-      "title": "The Celebration Schedule",
+      "title": "Detalles del Fin de Semana",
       "saturday": {
-        "title": "Saturday - Wedding Day",
-        "location": "Location",
+        "title": "Sábado — Nuestra boda",
+        "location": "Ubicación",
         "dresscode": "Formal",
-        "event1": "Welcome Reception",
-        "event2": "Wedding Ceremony",
-        "event3": "Garden Cocktails",
-        "event4": "Dinner",
-        "event5": "Celebrate",
-        "desc": "The celebration will take place at a historic hacienda, where architecture and landscape set the tone for the evening, followed by dinner and dancing."
+        "event1": "Bienvenida",
+        "event2": "Ceremonia",
+        "event3": "Cóctel en el jardín",
+        "event4": "Cena",
+        "event5": "Celebración",
+        "desc": "La celebración se llevará a cabo en una hacienda histórica, donde la arquitectura y el paisaje crearán el escenario perfecto para la ceremonia, seguida de cena y baile."
       },
       "sunday": {
-        "title": "Sunday - Brunch",
-        "desc": "After celebrating with us on Saturday, we would be delighted if you joined us for a brunch on Sunday morning. Come enjoy good food, coffee, and one last chance to gather with family and friends before everyone heads home.",
-        "time": "ime"
+        "title": "Domingo — Brunch",
+        "desc": "Después de celebrar con nosotros el sábado, nos encantaría que nos acompañaran a un brunch el domingo por la mañana. Será una oportunidad para disfrutar de un último momento juntos antes de despedirnos.",
+        "time": "Hora"
       }
     },
     "travel": {
-      "title": "Travel And Transportation",
-      "intro": "To make your journey as smooth as possible, we have outlined a few travel options below. If you would like any assistance, we are happy to help.",
+      "title": "Planea tu viaje",
+      "intro": "Queremos que su llegada y estancia en Cholula sean lo más sencillas posible, por lo que aquí encontrarán algunas recomendaciones de transporte y traslado.",
       "gettingIn": {
-        "title": "Getting In",
-        "p1": "We recommend flying into Mexico City (MEX) and continuing to Cholula, approximately 2 hours away. Arriving at least one day before the wedding will allow you to fully enjoy the experience.",
-        "p2": "Puebla Airport (PBC) is about 30 minutes away from Cholula. International flights are limited, but if you are planning to take a domestic flight, Puebla Airport might be a good option."
+        "title": "Cómo llegar",
+        "p1": "Recomendamos volar al Aeropuerto Internacional de la Ciudad de México (MEX) y continuar hacia Cholula, que se encuentra aproximadamente a 2 horas. Les sugerimos llegar al menos un día antes de la boda para disfrutar la experiencia completa.",
+        "p2": "El Aeropuerto de Puebla (PBC) está aproximadamente a 30 minutos de Cholula. Aunque cuenta con pocas rutas internacionales, puede ser una excelente opción para vuelos nacionales."
       },
       "arrival": {
-        "title": "Arrival in Cholula, Puebla",
-        "intro": "From Mexico City Airport, there are lots of ways to get to Cholula!",
+        "title": "Llegada a Cholula, Puebla",
+        "intro": "Desde el Aeropuerto de la Ciudad de México hay varias maneras de llegar a Cholula.",
         "option1": {
-          "title": "Option 1: Bus to Puebla + Taxi/Uber to Cholula",
-          "subtitle": "Comfortable and efficient",
-          "bullet1": "Bus (MEX → Puebla Paseo Destino): $20–$30 USD",
-          "bullet2": "Taxi/UBER (Puebla Paseo Destino → Cholula): $15–$20 USD",
-          "bullet3": "Total travel time: ~2.5–3 hours",
-          "note1": "At the airport, follow signs to the Terminal de Autobuses del Aeropuerto.",
-          "note2": "We suggest ADO (Primera, GL, or Platino) for comfort and frequency."
+          "title": "Opción 1: Autobús a Puebla + Taxi/Uber a Cholula",
+          "subtitle": "Cómodo y eficiente",
+          "bullet1": "Autobús (MEX → Puebla Paseo Destino): $20–$30 USD",
+          "bullet2": "Taxi/Uber (Puebla Paseo Destino → Cholula): $15–$20 USD",
+          "bullet3": "Tiempo aproximado: 2.5–3 horas",
+          "note1": "Dentro del aeropuerto, sigan las señales hacia la Terminal de Autobuses del Aeropuerto.",
+          "note2": "Recomendamos viajar con ADO (Primera, GL o Platino) por comodidad y frecuencia."
         },
         "option2": {
-          "title": "Option 2: UBER / Airport Taxi / Private Transfer",
-          "subtitle": "Direct and convenient",
-          "bullet1": "Cost: $80–$160 USD per car",
-          "bullet2": "Travel time: ~1.5–2 hours",
-          "note1": "After customs, proceed to the official taxi counter or meet your pre-arranged driver. Please note that Uber is not permitted to pick up at the airport. The easiest option is to use the bridge to Hotel Camino Real and request an Uber from there."
+          "title": "Opción 2: Uber / Taxi del aeropuerto / Transporte privado",
+          "subtitle": "Directo y conveniente",
+          "bullet1": "Costo aproximado: $80–$160 USD por vehículo",
+          "bullet2": "Tiempo aproximado: 1.5–2 horas",
+          "note1": "Después de aduana, pueden dirigirse al módulo oficial de taxis o encontrarse con un chofer previamente reservado. Tomen en cuenta que Uber no puede recoger pasajeros directamente en el aeropuerto. La opción más sencilla es cruzar el puente hacia el Hotel Camino Real y pedir el Uber desde ahí."
         },
         "option3": {
-          "title": "Option 3: Car Rental",
-          "subtitle": "Available at both terminals. Full insurance is recommended."
+          "title": "Opción 3: Renta de auto",
+          "subtitle": "Disponible en ambas terminales. Recomendamos contratar seguro completo."
         }
       },
       "gettingAround": {
-        "title": "Getting Around",
-        "intro": "Cholula is a small, charming town.",
-        "bullet1": "Most locations are walkable or within a 5–10-minute drive",
-        "bullet2": "Uber and taxis are readily available",
-        "bullet3": "Hotel concierge services can assist with arranging transportation"
+        "title": "Cómo moverse en Cholula",
+        "intro": "Cholula es un pueblo pequeño y encantador.",
+        "bullet1": "La mayoría de los lugares están a distancia caminable o a 5–10 minutos en coche",
+        "bullet2": "Uber y taxis están fácilmente disponibles",
+        "bullet3": "Los hoteles pueden ayudarles a coordinar transporte a la hacienda"
       }
     },
     "stay": {
-      "title": "Where To Stay",
+      "title": "Hospedaje",
       "cholula": {
-        "intro": "If staying in Cholula, we recommend the following hotels for their charm, central location, and proximity to the venue:"
+        "intro": "Si desean hospedarse en Cholula, recomendamos los siguientes hoteles por su encanto, ubicación y cercanía a la hacienda:"
       },
       "puebla": {
-        "intro": "Staying in Puebla is also a great option (about a 30-minute drive to the venue). We recommend:"
+        "intro": "Hospedarse en Puebla también es una excelente opción (aproximadamente a 30 minutos de la hacienda). Recomendamos:"
       },
-      "uberNote": "We suggest using Uber after the celebration, as there are many breathalyzer checkpoints in the area.",
+      "uberNote": "Sugerimos utilizar Uber después de la celebración, ya que suele haber alcoholímetros en la zona.",
       "thingsToDo": {
-        "title": "Things To Do",
-        "intro": "For those spending extra time in Cholula, here are a few of our favorite spots for food, drinks, and exploring.",
-        "foodLabel": "Food & drinks:",
-        "exploreLabel": "To explore:",
-        "explore1": "Great Pyramid of Cholula",
+        "title": "Qué hacer",
+        "intro": "Para quienes planean quedarse más tiempo en Cholula, aquí compartimos algunos de nuestros lugares favoritos para comer, tomar algo y explorar.",
+        "foodLabel": "Comida y bebidas:",
+        "exploreLabel": "Lugares para visitar:",
+        "explore1": "Gran Pirámide de Cholula",
         "explore2": "Santuario de Nuestra Señora de los Remedios",
         "explore3": "Zócalo de San Pedro Cholula",
         "explore4": "Iglesia de San Francisco Acatepec"
       }
     },
     "qa": {
-      "title": "Q & A",
+      "title": "Preguntas Frecuentes",
       "q1": {
-        "question": "When is the RSVP deadline?",
-        "answer": "Please RSVP by January 15 so we can finalize arrangements."
+        "question": "¿Cuál es la fecha límite para confirmar asistencia?",
+        "answer": "Les pedimos confirmar antes del 15 de enero para finalizar la organización."
       },
       "q2": {
-        "question": "Can I bring a guest?",
-        "answer": "Please refer to your invitation for details regarding your guest."
+        "question": "¿Puedo llevar acompañante?",
+        "answer": "La invitación indica quiénes están incluidos en su reservación."
       },
       "q3": {
-        "question": "Are children welcome?",
-        "answer": "We are delighted to welcome children and celebrate with families. We kindly ask that little ones remain supervised throughout the evening."
+        "question": "¿Los niños son bienvenidos?",
+        "answer": "Nos encantará celebrar con familias y niños. Les pedimos amablemente que los pequeños permanezcan supervisados durante toda la noche."
       },
       "q4": {
-        "question": "What should I wear?",
-        "answer": "The wedding day dress code is formal. The ceremony will be outdoors, followed by an indoor dinner. We recommend bringing a light layer for the evening."
+        "question": "¿Cuál es el código de vestimenta?",
+        "answer": "El código de vestimenta para la boda es formal. La ceremonia será al aire libre y la cena en interior. Recomendamos llevar algo ligero para la noche."
       },
       "q5": {
-        "question": "What will the weather be like?",
-        "answer": "February in Cholula is typically warm and sunny during the day, with cooler evenings."
+        "question": "¿Cómo es el clima en Cholula?",
+        "answer": "Febrero en Cholula suele ser cálido y soleado durante el día, con noches más frescas."
       },
       "q6": {
-        "question": "Where can I park?",
-        "answer": "Free valet parking will be available at the hacienda."
+        "question": "¿Habrá estacionamiento?",
+        "answer": "La hacienda contará con valet parking sin costo."
       },
       "q7": {
-        "question": "Can I take photos during the ceremony?",
-        "answer": "We invite you to be fully present during the ceremony and kindly ask that phones remain away."
+        "question": "¿Puedo tomar fotos durante la ceremonia?",
+        "answer": "Los invitamos a disfrutar plenamente de la ceremonia y les pedimos amablemente mantener los celulares guardados durante ese momento."
       },
       "q8": {
-        "question": "Do you have any wishes for gifts?",
-        "answer": "Just being there with us is more than enough. Your presence is what we value most."
+        "question": "¿Tienen alguna sugerencia para regalos?",
+        "answer": "El mejor regalo para nosotros es poder compartir este momento con ustedes."
       },
       "q9": {
-        "question": "Whom should I call with questions?",
-        "answer": "Please contact Mariel or Bram directly through WhatsApp if you have any other question."
+        "question": "¿A quién puedo contactar si tengo preguntas?",
+        "answer": "Pueden contactar directamente a Mariel o Bram por WhatsApp para cualquier duda adicional."
       }
     },
     "story": {
-      "title": "Our Story",
-      "p1": "Our story began far from where either of us grew up.\nBram is from Belgium, Mariel from Mexico — and somehow, life brought us both to Calgary, a city that quickly became home, and the place where everything began.",
-      "p2": "What started as a chance meeting grew into a love shaped by curiosity, adventure, and a shared sense of humor.",
-      "p3": "From spontaneous trips to the quiet rhythm of everyday life, we discovered how much we love exploring the world together — and finding joy in even the smallest moments.",
-      "p4": "As our journey continues, we've chosen a place to celebrate that feels just as meaningful as the path that brought us here.",
+      "title": "Nuestra Historia",
+      "p1": "Nuestra historia comenzó lejos de donde crecimos.\nBram es de Bélgica y Mariel de México, y de alguna manera la vida nos llevó a ambos a Calgary, una ciudad que rápidamente se convirtió en nuestro hogar y en el lugar donde todo comenzó.",
+      "p2": "Lo que empezó como un encuentro inesperado fue creciendo entre complicidad, risas y una forma muy parecida de ver la vida.",
+      "p3": "Entre viajes espontáneos y la tranquilidad de la vida cotidiana, descubrimos cuánto disfrutamos explorar el mundo juntos y encontrar felicidad incluso en los momentos más simples.",
+      "p4": "Hoy, mientras seguimos construyendo nuestra historia, elegimos celebrar en un lugar que se siente tan especial como el camino que nos trajo hasta aquí.",
       "finalNote": {
-        "title": "Final Note",
-        "p1": "We are so grateful to share this moment with you.",
-        "p2": "We can't wait to celebrate together in Cholula!",
-        "closing": "With love,"
+        "title": "Para Terminar",
+        "p1": "Estamos profundamente agradecidos de poder compartir este momento con ustedes.",
+        "p2": "¡Nos vemos en Cholula!",
+        "closing": "Con cariño,"
       }
     },
     "rsvp": {
       "title": "R S V P",
-      "thankYou": "Thank you for your response!",
+      "thankYou": "¡Gracias por tu respuesta!",
       "fields": {
         "name": {
-          "label": "NAME",
-          "placeholder": "Your full name"
+          "label": "NOMBRE",
+          "placeholder": "Tu nombre completo"
         },
         "email": {
-          "label": "EMAIL",
-          "placeholder": "your@email.com"
+          "label": "CORREO",
+          "placeholder": "tu@correo.com"
         },
         "attending": {
-          "label": "ATTENDING",
-          "accepts": "Accepts with pleasure",
-          "declines": "Regretfully declines"
+          "label": "ASISTENCIA",
+          "accepts": "Acepta con mucho gusto",
+          "declines": "Declina con pesar"
         },
         "adults": {
-          "label": "ADULTS"
+          "label": "ADULTOS"
         },
         "children": {
-          "label": "CHILDREN",
-          "labelSub": "UNDER 10"
+          "label": "NIÑOS",
+          "labelSub": "MENORES DE 10"
         },
         "allergies": {
-          "label": "ALLERGIES",
-          "placeholder": "Any dietary requirements or notes..."
+          "label": "ALERGIAS",
+          "placeholder": "Restricciones alimentarias o comentarios..."
         },
         "brunch": {
-          "label": "SUNDAY",
-          "labelSub": "BRUNCH",
-          "accepts": "Will be happy to join the brunch",
-          "declines": "Cannot make it to the brunch"
+          "label": "BRUNCH",
+          "labelSub": "DOMINICAL",
+          "accepts": "Con gusto asistiré al brunch",
+          "declines": "No podré asistir al brunch"
         },
         "message": {
-          "label": "MESSAGE",
-          "placeholder": "Feel free to leave a message..."
+          "label": "MENSAJE",
+          "placeholder": "Si deseas, puedes dejar un mensaje..."
         }
       },
       "buttons": {
-        "send": "SEND",
-        "sending": "SENDING...",
-        "close": "CLOSE"
+        "send": "ENVIAR",
+        "sending": "ENVIANDO...",
+        "close": "CERRAR"
       }
     }
   },
