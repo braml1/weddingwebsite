@@ -8,114 +8,114 @@
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content rsvp-modal-content">
         <div class="modal-header rsvp-modal-header">
-          <h5 class="rsvp-modal-title">R S V P</h5>
+          <h5 class="rsvp-modal-title">{{ dataStore.t('rsvp.title') }}</h5>
           <button type="button" class="rsvp-close-btn" @click="close" aria-label="Close">✕</button>
         </div>
-
+ 
         <div class="modal-body rsvp-modal-body">
-          <div v-if="state.submittingStage  == 2" class="rsvp-thankyou">
-              Thank you for your response!
+          <div v-if="state.submittingStage == 2" class="rsvp-thankyou">
+            {{ dataStore.t('rsvp.thankYou') }}
           </div>
-
+ 
           <div v-if="state.submittingStage < 2">
             <div class="rsvp-field">
-              <label class="rsvp-label">NAME</label>
+              <label class="rsvp-label">{{ dataStore.t('rsvp.fields.name.label') }}</label>
               <input
                 v-model="form.name"
                 type="text"
                 class="rsvp-input"
-                placeholder="Your full name"
+                :placeholder="dataStore.t('rsvp.fields.name.placeholder')"
               />
             </div>
-
+ 
             <div class="rsvp-field mt-4">
-              <label class="rsvp-label">EMAIL</label>
+              <label class="rsvp-label">{{ dataStore.t('rsvp.fields.email.label') }}</label>
               <input
                 v-model="form.email"
                 type="email"
                 class="rsvp-input"
-                placeholder="your@email.com"
+                :placeholder="dataStore.t('rsvp.fields.email.placeholder')"
               />
             </div>
-
+ 
             <div class="rsvp-field mt-4">
-              <label class="rsvp-label">ATTENDING</label>
+              <label class="rsvp-label">{{ dataStore.t('rsvp.fields.attending.label') }}</label>
               <div class="rsvp-radio-group">
                 <label class="rsvp-radio-label">
                   <input type="radio" v-model="form.coming" value="yes" class="rsvp-radio" />
-                  Accepts with pleasure
+                  {{ dataStore.t('rsvp.fields.attending.accepts') }}
                 </label>
                 <label class="rsvp-radio-label">
                   <input type="radio" v-model="form.coming" value="no" class="rsvp-radio" />
-                  Regretfully declines
+                  {{ dataStore.t('rsvp.fields.attending.declines') }}
                 </label>
               </div>
             </div>
-
-
+ 
             <div v-if="form.coming == 'yes'" class="rsvp-field mt-4">
-                <label class="rsvp-label">ADULTS</label>
-                <select v-model="form.nAdults" class="rsvp-input rsvp-select">
-                    <option value="0">0</option>
-                    <option v-for="n in 4" :key="n" :value="n">{{ n }}</option>
-                </select>
+              <label class="rsvp-label">{{ dataStore.t('rsvp.fields.adults.label') }}</label>
+              <select v-model="form.nAdults" class="rsvp-input rsvp-select">
+                <option value="0">0</option>
+                <option v-for="n in 4" :key="n" :value="n">{{ n }}</option>
+              </select>
             </div>
-
-            <div  v-if="form.coming == 'yes'" class="rsvp-field mt-4">
-                <label class="rsvp-label">CHILDREN <br/> UNDER 10 </label>
-                <select v-model="form.nKids" class="rsvp-input rsvp-select">
-                    <option value="0">0</option>
-                    <option v-for="n in 4" :key="n" :value="n">{{ n }}</option>
-                </select>
-            </div>
-
+ 
             <div v-if="form.coming == 'yes'" class="rsvp-field mt-4">
-              <label class="rsvp-label">ALLERGIES</label>
+              <label class="rsvp-label">{{ dataStore.t('rsvp.fields.children.label') }}<br/>{{ dataStore.t('rsvp.fields.children.labelSub') }}</label>
+              <select v-model="form.nKids" class="rsvp-input rsvp-select">
+                <option value="0">0</option>
+                <option v-for="n in 4" :key="n" :value="n">{{ n }}</option>
+              </select>
+            </div>
+ 
+            <div v-if="form.coming == 'yes'" class="rsvp-field mt-4">
+              <label class="rsvp-label">{{ dataStore.t('rsvp.fields.allergies.label') }}</label>
               <textarea
                 v-model="form.comment"
                 class="rsvp-input rsvp-textarea"
-                placeholder="Any dietary requirements or notes..."
+                :placeholder="dataStore.t('rsvp.fields.allergies.placeholder')"
                 rows="3"
               />
             </div>
-
+ 
             <div v-if="form.coming == 'yes'" class="rsvp-field mt-4">
-              <label class="rsvp-label">SUNDAY <br/> BRUNCH</label>
+              <label class="rsvp-label">{{ dataStore.t('rsvp.fields.brunch.label') }}<br/>{{ dataStore.t('rsvp.fields.brunch.labelSub') }}</label>
               <div class="rsvp-radio-group">
                 <label class="rsvp-radio-label">
                   <input type="radio" v-model="form.coming_to_brunch" value="yes" class="rsvp-radio" />
-                  Will be happy to join the brunch 
+                  {{ dataStore.t('rsvp.fields.brunch.accepts') }}
                 </label>
                 <label class="rsvp-radio-label">
                   <input type="radio" v-model="form.coming_to_brunch" value="no" class="rsvp-radio" />
-                  Cannot make it to the brunch 
+                  {{ dataStore.t('rsvp.fields.brunch.declines') }}
                 </label>
               </div>
             </div>
-
-
-
-
+ 
             <div v-if="form.coming == 'no'" class="rsvp-field mt-4">
-              <label class="rsvp-label">MESSAGE</label>
+              <label class="rsvp-label">{{ dataStore.t('rsvp.fields.message.label') }}</label>
               <textarea
                 v-model="form.comment"
                 class="rsvp-input rsvp-textarea"
-                placeholder="Feel free to leave a message..."
+                :placeholder="dataStore.t('rsvp.fields.message.placeholder')"
                 rows="3"
               />
             </div>
-
+ 
           </div>
-
         </div>
-
+ 
         <div class="modal-footer rsvp-modal-footer">
-          <button v-if="state.submittingStage == 0" class="rsvp-submit-btn" @click="submitForm()">SEND</button>
-          <button v-if="state.submittingStage == 1"  class="rsvp-submit-btn" disabled> 
-            <span  class="spinner-border spinner-border-sm me-2 text" role="status"></span> SENDING...
+          <button v-if="state.submittingStage == 0" class="rsvp-submit-btn" @click="submitForm()">
+            {{ dataStore.t('rsvp.buttons.send') }}
           </button>
-          <button v-if="state.submittingStage == 2" class="rsvp-submit-btn" @click="close()">CLOSE</button>
+          <button v-if="state.submittingStage == 1" class="rsvp-submit-btn" disabled>
+            <span class="spinner-border spinner-border-sm me-2 text" role="status"></span>
+            {{ dataStore.t('rsvp.buttons.sending') }}
+          </button>
+          <button v-if="state.submittingStage == 2" class="rsvp-submit-btn" @click="close()">
+            {{ dataStore.t('rsvp.buttons.close') }}
+          </button>
         </div>
       </div>
     </div>
@@ -125,6 +125,9 @@
 <script setup>
 import { ref, onUnmounted, reactive } from 'vue';
 import { Modal } from 'bootstrap';
+
+import { useDataStore } from '@/stores/DataStore'
+const dataStore = useDataStore()
 
 const modalEl = ref(null);
 let modalInstance = null;
@@ -261,7 +264,7 @@ defineExpose({ open, close });
   color: rgb(51, 51, 51);
   opacity: 0.7;
   white-space: nowrap;   /* added */
-  min-width: 100px;       /* added */
+  min-width: 120px;       /* added */
 }
 
 .rsvp-input {

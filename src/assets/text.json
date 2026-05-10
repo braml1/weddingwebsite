@@ -140,6 +140,51 @@
         "p2": "We can't wait to celebrate together in Cholula!",
         "closing": "With love,"
       }
+    },
+    "rsvp": {
+      "title": "R S V P",
+      "thankYou": "Thank you for your response!",
+      "fields": {
+        "name": {
+          "label": "NAME",
+          "placeholder": "Your full name"
+        },
+        "email": {
+          "label": "EMAIL",
+          "placeholder": "your@email.com"
+        },
+        "attending": {
+          "label": "ATTENDING",
+          "accepts": "Accepts with pleasure",
+          "declines": "Regretfully declines"
+        },
+        "adults": {
+          "label": "ADULTS"
+        },
+        "children": {
+          "label": "CHILDREN",
+          "labelSub": "UNDER 10"
+        },
+        "allergies": {
+          "label": "ALLERGIES",
+          "placeholder": "Any dietary requirements or notes..."
+        },
+        "brunch": {
+          "label": "SUNDAY",
+          "labelSub": "BRUNCH",
+          "accepts": "Will be happy to join the brunch",
+          "declines": "Cannot make it to the brunch"
+        },
+        "message": {
+          "label": "MESSAGE",
+          "placeholder": "Feel free to leave a message..."
+        }
+      },
+      "buttons": {
+        "send": "SEND",
+        "sending": "SENDING...",
+        "close": "CLOSE"
+      }
     }
   },
   "es": {
@@ -283,6 +328,51 @@
         "p2": "We can't wait to celebrate together in Cholula!",
         "closing": "With love,"
       }
+    },
+    "rsvp": {
+      "title": "R S V P",
+      "thankYou": "Thank you for your response!",
+      "fields": {
+        "name": {
+          "label": "NAME",
+          "placeholder": "Your full name"
+        },
+        "email": {
+          "label": "EMAIL",
+          "placeholder": "your@email.com"
+        },
+        "attending": {
+          "label": "ATTENDING",
+          "accepts": "Accepts with pleasure",
+          "declines": "Regretfully declines"
+        },
+        "adults": {
+          "label": "ADULTS"
+        },
+        "children": {
+          "label": "CHILDREN",
+          "labelSub": "UNDER 10"
+        },
+        "allergies": {
+          "label": "ALLERGIES",
+          "placeholder": "Any dietary requirements or notes..."
+        },
+        "brunch": {
+          "label": "SUNDAY",
+          "labelSub": "BRUNCH",
+          "accepts": "Will be happy to join the brunch",
+          "declines": "Cannot make it to the brunch"
+        },
+        "message": {
+          "label": "MESSAGE",
+          "placeholder": "Feel free to leave a message..."
+        }
+      },
+      "buttons": {
+        "send": "SEND",
+        "sending": "SENDING...",
+        "close": "CLOSE"
+      }
     }
   },
   "nl": {
@@ -425,6 +515,51 @@
         "p1": "We zijn zo dankbaar dat we dit moment met jullie mogen delen.",
         "p2": "We kunnen niet wachten om samen te vieren in Cholula!",
         "closing": "Tot gauw,"
+      }
+    },
+    "rsvp": {
+      "title": "R S V P",
+      "thankYou": "Bedankt voor je reactie!",
+      "fields": {
+        "name": {
+          "label": "NAAM",
+          "placeholder": "Je volledige naam"
+        },
+        "email": {
+          "label": "E-MAIL",
+          "placeholder": "jouw@email.com"
+        },
+        "attending": {
+          "label": "AANWEZIG",
+          "accepts": "Zal er zeker bij zijn!",
+          "declines": "Kan helaas niet komen"
+        },
+        "adults": {
+          "label": "VOLWASSENEN"
+        },
+        "children": {
+          "label": "KINDEREN",
+          "labelSub": "ONDER 10"
+        },
+        "allergies": {
+          "label": "ALLERGIEËN",
+          "placeholder": "Dieetwensen of opmerkingen..."
+        },
+        "brunch": {
+          "label": "ZONDAG",
+          "labelSub": "BRUNCH",
+          "accepts": "Komt graag naar de brunch",
+          "declines": "Kan helaas niet naar de brunch komen"
+        },
+        "message": {
+          "label": "BERICHT",
+          "placeholder": "Laat gerust een berichtje achter..."
+        }
+      },
+      "buttons": {
+        "send": "VERSTUREN",
+        "sending": "VERSTUREN...",
+        "close": "SLUITEN"
       }
     }
   }
