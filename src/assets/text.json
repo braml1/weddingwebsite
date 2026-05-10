@@ -409,8 +409,8 @@
       "title": "Reizen en Vervoer",
       "intro": "Om jouw reis zo soepel mogelijk te laten verlopen, hebben we een aantal reisopties voor je op een rij gezet. Als je hulp nodig hebt, helpen we je graag verder.",
       "gettingIn": {
-        "title": "Hoe Kom Je Er",
-        "p1": "We raden aan om te vliegen naar Mexico-Stad (MEX) en daarna door te reizen naar Cholula, op ongeveer 2 uur rijden. Als je minimaal één dag voor de bruiloft aankomt, kun je de ervaring volledig genieten.",
+        "title": "Hoe kom je er",
+        "p1": "We raden aan om te vliegen naar Mexico-Stad (MEX) en daarna door te reizen naar Cholula, op ongeveer 2 uur rijden. Als je minimaal één dag voor de bruiloft aankomt, kun je rustig van de volledige ervaring genieten.",
         "p2": "De luchthaven van Puebla (PBC) ligt op ongeveer 30 minuten van Cholula. Internationale vluchten zijn beperkt, maar als je een binnenlandse vlucht overweegt, kan de luchthaven van Puebla een goede optie zijn."
       },
       "arrival": {
@@ -434,11 +434,11 @@
         },
         "option3": {
           "title": "Optie 3: Huurauto",
-          "subtitle": "Beschikbaar bij beide terminals. Een volledig verzekeringspakket is aan te raden."
+          "subtitle": "Beschikbaar bij beide terminals. Een volledig verzekeringspakket is aan te raden. Houd rekening met de drukte van Mexico-stad."
         }
       },
       "gettingAround": {
-        "title": "Rondkomen in Cholula",
+        "title": "Lokaal vervoer in Cholula",
         "intro": "Cholula is een klein en charmant stadje.",
         "bullet1": "De meeste locaties zijn te voet bereikbaar of op 5–10 minuten rijden",
         "bullet2": "Uber en taxi's zijn gemakkelijk beschikbaar",
@@ -448,7 +448,7 @@
     "stay": {
       "title": "Waar Te Verblijven",
       "cholula": {
-        "intro": "Als je in Cholula verblijft, raden we de volgende hotels aan vanwege hun charme, centrale ligging en nabijheid van de locatie:"
+        "intro": "Als je in Cholula verblijft, raden we de volgende hotels aan vanwege hun charme en centrale ligging:"
       },
       "puebla": {
         "intro": "Verblijven in Puebla is ook een geweldige optie (ongeveer 30 minuten rijden naar de locatie). We raden aan:"
@@ -456,7 +456,7 @@
       "uberNote": "We raden aan om na de festiviteiten een Uber te nemen, omdat er in de omgeving veel alcoholcontroles zijn.",
       "thingsToDo": {
         "title": "Wat Te Doen",
-        "intro": "Voor wie wat extra tijd in Cholula doorbrengt, hier zijn een paar van onze favoriete plekken voor eten, drinken en verkennen.",
+        "intro": "Voor wie wat extra tijd in Cholula doorbrengt, hier zijn een paar van onze favoriete plekken.",
         "foodLabel": "Eten & drinken:",
         "exploreLabel": "Om te verkennen:",
         "explore1": "Grote Piramide van Cholula",

@@ -99,11 +99,13 @@
 
 <script setup>
 
+
 import { useDataStore } from '@/stores/DataStore'
+import { computed } from 'vue'
 const dataStore = useDataStore()
 
 
-const leftEvents = [
+const leftEvents = computed(() => [
   {
     time: '4.30 PM',
     label: dataStore.t('schedule.saturday.event1'),
@@ -158,9 +160,9 @@ const leftEvents = [
     
     `
   },
-]
+])
 
-const rightEvents = [
+const rightEvents = computed(() => [
   {
     time: '5.00 PM',
     label: dataStore.t('schedule.saturday.event2'),
@@ -187,7 +189,7 @@ const rightEvents = [
     `
   },
 
-]
+])
 
 
 const navigateToWebsite = (url) => {
