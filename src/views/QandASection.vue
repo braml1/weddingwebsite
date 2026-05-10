@@ -12,11 +12,13 @@
         {{ dataStore.t('qa.q1.answer') }}
       </div>
  
-      <div class="aboutus-text text-start mt-4 mx-4 fw-bold">
-        {{ dataStore.t('qa.q2.question') }}
-      </div>
-      <div class="aboutus-text text-start mt-0 mx-4">
-        {{ dataStore.t('qa.q2.answer') }}
+      <div v-if="dataStore.language != 'nl'">
+        <div class="aboutus-text text-start mt-4 mx-4 fw-bold">
+          {{ dataStore.t('qa.q2.question') }}
+        </div>
+        <div class="aboutus-text text-start mt-0 mx-4">
+          {{ dataStore.t('qa.q2.answer') }}
+        </div>
       </div>
  
       <div class="aboutus-text text-start mt-4 mx-4 fw-bold">
