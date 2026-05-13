@@ -87,7 +87,8 @@
         "explore2": "Santuario de Nuestra Señora de los Remedios",
         "explore3": "Zócalo de San Pedro Cholula",
         "explore4": "Iglesia de San Francisco Acatepec"
-      }
+      },
+      "outsidecenter": "located outside Cholula's town center"
     },
     "qa": {
       "title": "Q & A",
@@ -275,7 +276,8 @@
         "explore2": "Santuario de Nuestra Señora de los Remedios",
         "explore3": "Zócalo de San Pedro Cholula",
         "explore4": "Iglesia de San Francisco Acatepec"
-      }
+      },
+      "outsidecenter": "fuera del centro de Cholula"
     },
     "qa": {
       "title": "Preguntas Frecuentes",
@@ -463,7 +465,8 @@
         "explore2": "Santuario de Nuestra Señora de los Remedios",
         "explore3": "Zócalo de San Pedro Cholula",
         "explore4": "Iglesia de San Francisco Acatepec"
-      }
+      },
+      "outsidecenter": "Verder weg van het centrum"
     },
     "qa": {
       "title": "Veelgestelde Vragen",
