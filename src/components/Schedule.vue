@@ -50,7 +50,7 @@
       <br/>
       Salon Troje @
 
-      <span style="cursor: pointer; color:rgb(157, 91, 75)"
+      <span style="cursor: pointer; color:rgb(157, 91, 75);white-space: nowrap;"
         @click="navigateToWebsite('https://maps.app.goo.gl/dFuKj8nCi5ozygNC9')" 
         >
 
