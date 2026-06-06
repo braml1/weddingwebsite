@@ -46,12 +46,16 @@
 
 
     <div class="aboutus-text text-start mt-3">
-      <b>{{ dataStore.t('schedule.saturday.location') }}:</b> Salon Troje @
+      <b>{{ dataStore.t('schedule.saturday.location') }}:</b> 
+      <br/>
+      Salon Troje @
 
       <span style="cursor: pointer; color:rgb(157, 91, 75)"
-        @click="navigateToWebsite('https://maps.app.goo.gl/dFuKj8nCi5ozygNC9')" class="mx-0">
-        Hacienda San Jose Actipan
-        <svg viewBox="0 0 32 32" width="40" height="40">
+        @click="navigateToWebsite('https://maps.app.goo.gl/dFuKj8nCi5ozygNC9')" 
+        >
+
+        Hacienda San José Actipan
+        <svg viewBox="0 0 32 32" width="30" height="30">
           <path fill-rule="evenodd" clip-rule="evenodd"
             d="M5.437 9.041c0-3.73 2.886-6.81 6.52-6.835A.61.61 0 0 1 12 2.204c3.653 0 6.563 3.091 6.563 6.837 0 5.975-3.986 10.694-5.527 12.298a1.401 1.401 0 0 1-1.036.456c-.393 0-.772-.165-1.036-.456-1.54-1.605-5.527-6.34-5.527-12.298zM12 3.406c.013 0 .026 0 .039-.002 2.921.022 5.324 2.516 5.324 5.637 0 5.489-3.702 9.916-5.199 11.474a.597.597 0 0 0-.015.016.202.202 0 0 1-.149.064.202.202 0 0 1-.149-.064.388.388 0 0 0-.015-.016C10.34 18.957 6.637 14.513 6.637 9.04c0-3.134 2.423-5.635 5.363-5.635zM9.332 8.729A2.67 2.67 0 1 1 12 11.4a2.67 2.67 0 0 1-2.668-2.67zM12 4.86a3.87 3.87 0 0 0-3.868 3.87A3.87 3.87 0 1 0 12 4.86z"
             fill="currentColor">
@@ -77,9 +81,23 @@
       <b>{{dataStore.t('schedule.sunday.time')}}:</b> 11.30 AM
       <br />
       <b>{{dataStore.t('schedule.saturday.location')}}:</b>
-      <span>
-        To be determined
-      </span>
+      <br/>
+ 
+      
+    Jardin Trapiche @
+
+          <span style="cursor: pointer; color:rgb(157, 91, 75); white-space: nowrap;"
+            @click="navigateToWebsite('https://maps.app.goo.gl/dFuKj8nCi5ozygNC9')" class="mx-0">
+            Hacienda San José Actipan
+            <svg viewBox="0 0 32 32" width="30" height="30" class="mx-0">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M5.437 9.041c0-3.73 2.886-6.81 6.52-6.835A.61.61 0 0 1 12 2.204c3.653 0 6.563 3.091 6.563 6.837 0 5.975-3.986 10.694-5.527 12.298a1.401 1.401 0 0 1-1.036.456c-.393 0-.772-.165-1.036-.456-1.54-1.605-5.527-6.34-5.527-12.298zM12 3.406c.013 0 .026 0 .039-.002 2.921.022 5.324 2.516 5.324 5.637 0 5.489-3.702 9.916-5.199 11.474a.597.597 0 0 0-.015.016.202.202 0 0 1-.149.064.202.202 0 0 1-.149-.064.388.388 0 0 0-.015-.016C10.34 18.957 6.637 14.513 6.637 9.04c0-3.134 2.423-5.635 5.363-5.635zM9.332 8.729A2.67 2.67 0 1 1 12 11.4a2.67 2.67 0 0 1-2.668-2.67zM12 4.86a3.87 3.87 0 0 0-3.868 3.87A3.87 3.87 0 1 0 12 4.86z"
+                fill="currentColor">
+              </path>
+            </svg>
+
+          </span>
+
       <!-- <span style="cursor: pointer; color:rgb(157, 91, 75)" @click="navigateToWebsite('https://maps.app.goo.gl/GGfVPyLjEAKV3uQv5')">
         Ciudad Sagrada 
         <svg viewBox="0 0 32 32" width="40" height="40">
