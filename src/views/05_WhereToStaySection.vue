@@ -10,7 +10,7 @@
  
         <ul class="">
           <li><a href="https://casaeva.travel/" target="_blank">Casa Eva</a></li>
-          <li><a href="https://laquintaluna.com.mx/" target="_blank">Quinta Luna</a></li>
+          <!-- <li><a href="https://laquintaluna.com.mx/" target="_blank">Quinta Luna</a> </li> -->
           <li><a href="https://estrelladebelem.com.mx" target="_blank">Estrella de Belém</a></li>
           <li><a href="https://tilahotel.com/" target="_blank">Hotel Tila</a></li>
           <li><a href="https://www.booking.com/hotel/mx/boutique-camino-del-bosque.en-gb.html" target="_blank">Camino Del Bosque </a> 
