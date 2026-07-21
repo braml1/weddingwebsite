@@ -191,20 +191,28 @@ onUnmounted(() => {
 
 /* Custom RSVP Button */
 .rsvp-button {
-  background: transparent;
-  border: 1px solid #2c2c2c;
-  border-radius: 0; 
-  padding: 12px 45px;
+  background: #2c2c2c;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  padding: 16px 55px;
   font-family: 'Quicksand', sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-size: 0.8rem;
-  transition: all 0.4s ease;
+  font-size: 0.95rem;
+  font-weight: 600;
+  animation: pulse 2s infinite;
+  transition: all 0.3s ease;
+}
+
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(44,44,44,0.4); }
+  50% { box-shadow: 0 0 0 12px rgba(44,44,44,0); }
 }
 
 .rsvp-button:hover {
-  background: #2c2c2c;
-  color: #fff;
+  transform: scale(1.05);
+  animation: none;
 }
 
 .ring-background {
